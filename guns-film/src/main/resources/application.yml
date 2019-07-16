@@ -32,6 +32,15 @@ spring:
       username: root
       password: 123456
       filters: log4j,wall,mergeStat
+  application:
+    name: dubbo-spring-boot-film
+  dubbo:
+    registry: zookeeper://localhost:2181
+    server: true
+    protocol:
+      name: dubbo
+      port: 20882
+
 
 logging:
   level.root: info
