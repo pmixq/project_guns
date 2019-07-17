@@ -13,6 +13,7 @@
         <module name="guns-gateway" />
         <module name="guns-generator" />
         <module name="guns-rest" />
+        <module name="guns-user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

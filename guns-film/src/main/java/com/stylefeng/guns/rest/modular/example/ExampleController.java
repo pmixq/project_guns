@@ -19,6 +19,6 @@ public class ExampleController {
     @RequestMapping("")
     public ResponseEntity hello(@RequestBody SimpleObject simpleObject) {
         System.out.println(simpleObject.getUser());
-        return ResponseEntity.ok("请求成功!");
+        return ResponseEntity.ok("guns-film请求成功!");
     }
 }

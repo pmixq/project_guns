@@ -55,6 +55,14 @@
             <version>0.10</version>
         </dependency>
 
+        <!--导入公共的依赖包-->
+
+        <dependency>
+            <groupId>com.stylefeng</groupId>
+            <artifactId>guns-common-api</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
     </dependencies>
 
     <build>

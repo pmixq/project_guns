@@ -55,6 +55,26 @@
             <version>0.10</version>
         </dependency>
 
+        <!--导入公共的依赖包-->
+        <dependency>
+            <groupId>com.stylefeng</groupId>
+            <artifactId>guns-common-api</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <!--分页插件-->
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper-spring-boot-starter</artifactId>
+            <version>1.2.10</version>
+        </dependency>
+
+        <!--序列化kyro-->
+        <!--<dependency>
+            <groupId></groupId>
+            <artifactId>kr</artifactId>
+        </dependency>-->
+
 
     </dependencies>
 
