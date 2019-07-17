@@ -6,26 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="guns-rest" />
         <module name="guns-common-api" />
+        <module name="guns-rest" />
+        <module name="guns-cinema" />
+        <module name="guns-admin" />
         <module name="guns-film" />
         <module name="guns-gateway" />
-        <module name="guns-admin" />
-        <module name="guns-cinema" />
         <module name="guns-generator" />
         <module name="guns-core" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="11">
-      <module name="guns-admin" target="11" />
-      <module name="guns-cinema" target="11" />
-      <module name="guns-common-api" target="11" />
-      <module name="guns-core" target="11" />
-      <module name="guns-film" target="11" />
-      <module name="guns-gateway" target="11" />
-      <module name="guns-generator" target="11" />
-      <module name="guns-parent" target="11" />
-      <module name="guns-rest" target="11" />
+    <bytecodeTargetLevel target="8">
+      <module name="guns-admin" target="8" />
+      <module name="guns-cinema" target="8" />
+      <module name="guns-common-api" target="8" />
+      <module name="guns-core" target="8" />
+      <module name="guns-film" target="8" />
+      <module name="guns-gateway" target="8" />
+      <module name="guns-generator" target="8" />
+      <module name="guns-parent" target="8" />
+      <module name="guns-rest" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

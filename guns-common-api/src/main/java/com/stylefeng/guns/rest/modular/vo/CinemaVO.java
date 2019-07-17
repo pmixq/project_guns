@@ -1,10 +1,12 @@
-package com.stylefeng.guns.rest.common.persistence.model.bean;
+package com.stylefeng.guns.rest.modular.vo;
 
-public class Cinema {
-    Integer uuid;
-    String cinemaName;
-    String cinemaAddress;
-    Integer minimumPrice;
+import java.io.Serializable;
+
+public class CinemaVO implements Serializable {
+    private Integer uuid;
+    private String cinemaName;
+    private String cinemaAddress;
+    private Integer minimumPrice;
 
     public Integer getUuid() {
         return uuid;
