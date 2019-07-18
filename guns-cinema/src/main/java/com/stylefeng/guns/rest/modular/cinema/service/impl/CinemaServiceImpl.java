@@ -105,4 +105,16 @@ public class CinemaServiceImpl implements CinemaService {
         List<FilmInfoVO> filmInfoVOS= fieldTMapper.getFilmInfos(cinemaId);
         return filmInfoVOS;
     }
+
+    @Override
+    public FilmInfoVO getFilemInfoByFieldId(int fieldId) {
+        FilmInfoVO filmInfoVO=fieldTMapper.getFilmInfoByfieldId(fieldId);
+        return filmInfoVO;
+    }
+
+    @Override
+    public HallInfoVO getFilmFieldInfo(int fieldId) {
+        HallInfoVO hallInfoVO=fieldTMapper.getHallInfo(fieldId);
+        return hallInfoVO;
+    }
 }

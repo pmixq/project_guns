@@ -56,4 +56,33 @@
         WHERE
         f.`cinema_id` =${cinemaId}
     </select>
+
+    <select id="getFilmInfoByfieldId" parameterType="java.lang.Integer" resultType="com.stylefeng.guns.rest.modular.vo.FilmInfoVO">
+        SELECT
+          f.`film_id` AS filmId,
+          info.`film_name` AS filmName,
+          info.`film_length` AS filmLength,
+          info.`film_language` AS filmType,
+          info.`film_cats` AS filmCats,
+          info.`actors` AS actors,
+          info.`img_address` AS imgAddress
+        FROM
+          mtime_field_t f,
+          mtime_hall_film_info_t info
+        WHERE f.`film_id` = info.`film_id`
+          AND f.`UUID` = ${fieldId}
+    </select>
+
+    <select id="getHallInfo" parameterType="java.lang.Integer" resultType="com.stylefeng.guns.rest.modular.vo.HallInfoVO">
+        SELECT
+          f.`UUID` AS hallFieldId,
+          f.`hall_name` AS hallName,
+          f.`price` AS price,
+          hall.`seat_address` AS seatFile
+        FROM
+          mtime_hall_dict_t hall,
+          mtime_field_t f
+        WHERE f.`hall_id` = hall.`UUID`
+          AND f.`UUID` = ${fieldId}
+    </select>
 </mapper>

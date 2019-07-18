@@ -19,4 +19,8 @@ public interface CinemaService {
 
     List<FilmInfoVO> getFilmInfoById(int cinemaId);
 
+    FilmInfoVO getFilemInfoByFieldId(int fieldId);
+
+    HallInfoVO getFilmFieldInfo(int fieldId);
+
 }
