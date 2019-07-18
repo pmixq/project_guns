@@ -3,24 +3,23 @@ package com.stylefeng.guns.rest.modular.cinema.controller;
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.baomidou.mybatisplus.plugins.Page;
 import com.stylefeng.guns.rest.modular.cinema.Service.CinemaService;
-import com.stylefeng.guns.rest.modular.cinema.vo.CinemaQueryVO;
-import com.stylefeng.guns.rest.modular.cinema.vo.CinemaVO;
-import com.stylefeng.guns.rest.modular.cinema.vo.ResponseVO;
-import org.springframework.stereotype.Controller;
+import com.stylefeng.guns.rest.modular.cinema.vo.*;
+import com.stylefeng.guns.rest.modular.cinema.vo.FilmInfoVO;
+import com.stylefeng.guns.rest.modular.cinema.vo.HallInfoVO;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
 import java.util.List;
 
-@Controller
-@RequestMapping("/cinema")
+@RestController
+@RequestMapping("/cinema/")
 public class CinemaController  {
+    private static final String img_pre ="http://img.meetingshop.cn/";
     @Reference
     CinemaService cinemaService;
 
-    @ResponseBody
-    @RequestMapping("/getCondition")
+    @RequestMapping("getCondition")
     public ResponseVO getCondition(int brandId,int areaId,int hallType){
         ResponseVO responseVO=new ResponseVO();
         List<Object> list=new ArrayList<>();
@@ -32,8 +31,7 @@ public class CinemaController  {
         return null;
     }
 
-    @ResponseBody
-    @RequestMapping("/getCinemas")
+    /*@RequestMapping("getCinemas")
     public ResponseVO getCinemas(int brandId,int areaId,int hallType,int nowPage,int pageSize){
         ResponseVO responseVO=new ResponseVO();
         CinemaQueryVO cinemaQueryVO=new CinemaQueryVO();
@@ -45,11 +43,41 @@ public class CinemaController  {
         Page<CinemaVO> page=cinemaService.getCinemas(cinemaQueryVO);
         responseVO.setData(page);
         responseVO.setStatus(0);
-        responseVO.setImgPre("http://img.meetingshop.cn/");
+        responseVO.setImgPre(img_pre);
         responseVO.setNowPage((int)page.getPages());
         responseVO.setTotalPage((int)page.getTotal());
         return responseVO;
+    }*/
+
+    @RequestMapping("getFields")
+    public ResponseVO getFields(int cinemaId){
+        CinemaInfoVO cinemaInfoVO=cinemaService.getCinemaInfoById(cinemaId);
+        List<FilmInfoVO> filmInfoVOS=cinemaService.getFilmInfoById(cinemaId);
+        CinemaFieldsResponseVO cinemaFieldsResponseVO=new CinemaFieldsResponseVO();
+        cinemaFieldsResponseVO.setCinemaInfo(cinemaInfoVO);
+        cinemaFieldsResponseVO.setFilmList(filmInfoVOS);
+        ResponseVO responseVO=new ResponseVO();
+        responseVO.setData(cinemaFieldsResponseVO);
+        responseVO.setStatus(0);
+        responseVO.setImgPre(img_pre);
+        return responseVO;
     }
 
+    @RequestMapping("getFieldInfo")
+    public ResponseVO getFieldInfo(Integer cinemaId,Integer fieldId){
+        CinemaInfoVO cinemaInfoVO=cinemaService.getCinemaInfoById(cinemaId);
+        FilmInfoVO filmInfoVO=cinemaService.getFilemInfoByFieldId(fieldId);
+        HallInfoVO hallInfoVO=cinemaService.getFilmFieldInfo(fieldId);
 
+        CinemaFilmResponseVO cinemaFilmResponseVO=new CinemaFilmResponseVO();
+        cinemaFilmResponseVO.setCinemaInfo(cinemaInfoVO);
+        cinemaFilmResponseVO.setFilmInfo(filmInfoVO);
+        cinemaFilmResponseVO.setHallInfo(hallInfoVO);
+
+        ResponseVO responsVO=new ResponseVO();
+        responsVO.setImgPre(img_pre);
+        responsVO.setData(cinemaFilmResponseVO);
+        responsVO.setStatus(0);
+        return responsVO;
+    }
 }

@@ -1,24 +1,25 @@
 package com.stylefeng.guns.rest.modular.cinema.service.impl;
 
+import com.alibaba.dubbo.config.annotation.Service;
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.baomidou.mybatisplus.plugins.Page;
 import com.stylefeng.guns.rest.common.persistence.dao.AreaDictTMapper;
 import com.stylefeng.guns.rest.common.persistence.dao.BrandDictTMapper;
 import com.stylefeng.guns.rest.common.persistence.dao.CinemaTMapper;
+
 import com.stylefeng.guns.rest.common.persistence.dao.HallDictTMapper;
 import com.stylefeng.guns.rest.common.persistence.model.AreaDictT;
+import com.stylefeng.guns.rest.common.persistence.dao.FieldTMapper;
+
 import com.stylefeng.guns.rest.common.persistence.model.BrandDictT;
 import com.stylefeng.guns.rest.common.persistence.model.CinemaT;
 import com.stylefeng.guns.rest.common.persistence.model.HallDictT;
 import com.stylefeng.guns.rest.modular.cinema.Service.CinemaService;
 import com.stylefeng.guns.rest.modular.cinema.vo.*;
+import com.stylefeng.guns.rest.modular.cinema.vo.FilmInfoVO;
+import com.stylefeng.guns.rest.modular.cinema.vo.HallInfoVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import com.alibaba.dubbo.config.annotation.Service;
-
-
-
-import org.springframework.util.CollectionUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,8 +34,11 @@ public class CinemaServiceImpl implements CinemaService {
     AreaDictTMapper areaDictTMapper;
     @Autowired
     HallDictTMapper hallDictTMapper;
+    @Autowired(required = false)
+    FieldTMapper fieldTMapper;
 
-    @Override
+
+  /*  @Override
     public Page<CinemaVO> getCinemas(CinemaQueryVO cinemaQueryVO) {
         ArrayList<CinemaVO> list = new ArrayList<>();
         CinemaVO cinemaVO = new CinemaVO();
@@ -57,7 +61,7 @@ public class CinemaServiceImpl implements CinemaService {
         }
         page = page.setRecords(list);
         return page;
-    }
+    }*/
 
     @Override
     public List<BrandVO> getBrands(int brandId) {
@@ -144,6 +148,25 @@ public class CinemaServiceImpl implements CinemaService {
         cinemaInfoVO.setCinemaPhone(cinemaT.getCinemaPhone());
         cinemaInfoVO.setImgUrl(cinemaT.getImgAddress());
         return cinemaInfoVO;
+    }
+
+    @Override
+    public List<FilmInfoVO> getFilmInfoById(int cinemaId) {
+        List<FilmInfoVO> filmInfoVOS= fieldTMapper.getFilmInfos(cinemaId);
+        return filmInfoVOS;
+    }
+
+    @Override
+    public FilmInfoVO getFilemInfoByFieldId(int fieldId) {
+        FilmInfoVO filmInfoVO=fieldTMapper.getFilmInfoByfieldId(fieldId);
+        return filmInfoVO;
+    }
+
+    @Override
+    public HallInfoVO getFilmFieldInfo(int fieldId) {
+        HallInfoVO hallInfoVO=fieldTMapper.getHallInfo(fieldId);
+        return hallInfoVO;
+
     }
 }
 

@@ -1,7 +1,5 @@
 package com.stylefeng.guns.rest.modular.cinema.vo;
 
-import java.io.Serializable;
-import java.util.List;
 
 public class ResponseVO {
     private Object data;
