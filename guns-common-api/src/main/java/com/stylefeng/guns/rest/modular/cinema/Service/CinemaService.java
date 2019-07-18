@@ -1,7 +1,7 @@
 package com.stylefeng.guns.rest.modular.cinema.Service;
 
 import com.baomidou.mybatisplus.plugins.Page;
-import com.stylefeng.guns.rest.modular.vo.*;
+import com.stylefeng.guns.rest.modular.cinema.vo.*;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.stylefeng.guns.rest.modular.vo;
+package com.stylefeng.guns.rest.modular.cinema.vo;
 
 import java.io.Serializable;
 

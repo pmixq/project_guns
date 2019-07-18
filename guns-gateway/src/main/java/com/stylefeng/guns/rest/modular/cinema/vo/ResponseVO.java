@@ -1,21 +1,22 @@
-package com.stylefeng.guns.rest.modular.vo;
+package com.stylefeng.guns.rest.modular.cinema.vo;
 
 import java.io.Serializable;
 import java.util.List;
 
-public class ResponseVO<E> implements Serializable {
-    List<Object> data;
-    String imgPre;
-    String msg;
-    Integer nowPage;
-    Integer status;
-    Integer totalPage;
+public class ResponseVO {
+    private Object data;
+    private String imgPre;
+    private Integer status;
+    private String msg;
+    private Integer nowPage;
+    private Integer totalPage;
 
-    public List<Object> getData() {
+
+    public Object getData() {
         return data;
     }
 
-    public void setData(List<Object> data) {
+    public void setData(Object data) {
         this.data = data;
     }
 
@@ -25,6 +26,14 @@ public class ResponseVO<E> implements Serializable {
 
     public void setImgPre(String imgPre) {
         this.imgPre = imgPre;
+    }
+
+    public Integer getStatus() {
+        return status;
+    }
+
+    public void setStatus(Integer status) {
+        this.status = status;
     }
 
     public String getMsg() {
@@ -41,14 +50,6 @@ public class ResponseVO<E> implements Serializable {
 
     public void setNowPage(Integer nowPage) {
         this.nowPage = nowPage;
-    }
-
-    public Integer getStatus() {
-        return status;
-    }
-
-    public void setStatus(Integer status) {
-        this.status = status;
     }
 
     public Integer getTotalPage() {
