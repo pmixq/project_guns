@@ -1,16 +1,17 @@
 package com.stylefeng.guns.rest.modular.cinema.service.impl;
 
+import com.alibaba.dubbo.config.annotation.Service;
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.baomidou.mybatisplus.plugins.Page;
 import com.stylefeng.guns.rest.common.persistence.dao.BrandDictTMapper;
 import com.stylefeng.guns.rest.common.persistence.dao.CinemaTMapper;
+import com.stylefeng.guns.rest.common.persistence.dao.FieldTMapper;
 import com.stylefeng.guns.rest.common.persistence.model.BrandDictT;
 import com.stylefeng.guns.rest.common.persistence.model.CinemaT;
 import com.stylefeng.guns.rest.modular.cinema.Service.CinemaService;
 import com.stylefeng.guns.rest.modular.vo.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 
 import java.util.ArrayList;
@@ -22,6 +23,8 @@ public class CinemaServiceImpl implements CinemaService {
     CinemaTMapper cinemaTMapper;
     @Autowired
     BrandDictTMapper brandDictTMapper;
+    @Autowired(required = false)
+    FieldTMapper fieldTMapper;
 
     @Override
     public Page<CinemaVO> getCinemas(CinemaQueryVO cinemaQueryVO) {
@@ -85,6 +88,21 @@ public class CinemaServiceImpl implements CinemaService {
 
     @Override
     public CinemaInfoVO getCinemaInfoById(int cinemaId) {
-        return null;
+        CinemaT cinemaT=cinemaTMapper.selectById(cinemaId);
+
+        CinemaInfoVO cinemaInfoVO=new CinemaInfoVO();
+
+        cinemaInfoVO.setCinemaAdress(cinemaT.getCinemaAddress());
+        cinemaInfoVO.setCinemaId(cinemaT.getUuid());
+        cinemaInfoVO.setCinemaName(cinemaT.getCinemaName());
+        cinemaInfoVO.setCinemaPhone(cinemaT.getCinemaPhone());
+        cinemaInfoVO.setImgUrl(cinemaT.getImgAddress());
+        return cinemaInfoVO;
+    }
+
+    @Override
+    public List<FilmInfoVO> getFilmInfoById(int cinemaId) {
+        List<FilmInfoVO> filmInfoVOS= fieldTMapper.getFilmInfos(cinemaId);
+        return filmInfoVOS;
     }
 }

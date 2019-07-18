@@ -17,4 +17,6 @@ public interface CinemaService {
     //5、根据影院编号，获取影院信息
     CinemaInfoVO getCinemaInfoById(int cinemaId);
 
+    List<FilmInfoVO> getFilmInfoById(int cinemaId);
+
 }
