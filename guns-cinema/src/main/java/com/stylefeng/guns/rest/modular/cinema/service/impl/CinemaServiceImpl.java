@@ -24,7 +24,7 @@ import org.springframework.stereotype.Component;
 import java.util.ArrayList;
 import java.util.List;
 @Component
-@Service
+@Service(interfaceClass = CinemaService.class)
 public class CinemaServiceImpl implements CinemaService {
     @Autowired
     CinemaTMapper cinemaTMapper;
@@ -38,44 +38,52 @@ public class CinemaServiceImpl implements CinemaService {
     FieldTMapper fieldTMapper;
 
 
-  /*  @Override
+    @Override
     public Page<CinemaVO> getCinemas(CinemaQueryVO cinemaQueryVO) {
-        ArrayList<CinemaVO> list = new ArrayList<>();
-        CinemaVO cinemaVO = new CinemaVO();
-        Page<CinemaVO> page = new Page<>(cinemaQueryVO.getNowPage(), cinemaQueryVO.getPageSize());
-        EntityWrapper<CinemaT> entityWrapper = new EntityWrapper<>();
-        entityWrapper.eq("brand_id", cinemaQueryVO.getBrandId())
-                .eq("area_id", cinemaQueryVO.getAreaId())
-                .eq("hall_ids", cinemaQueryVO.getHallType());
+        List<CinemaVO> list = new ArrayList<>();
+        int brandId=cinemaQueryVO.getBrandId();
+        int areaId=cinemaQueryVO.getAreaId();
+        int hallType=cinemaQueryVO.getHallType();
 
-        List<CinemaT> cinemaTList = cinemaTMapper.selectList(entityWrapper);
-        if (CollectionUtils.isEmpty(cinemaTList)) {
-            list = null;
+        EntityWrapper<CinemaT> entityWrapper = new EntityWrapper<>();
+        Page page=new Page(cinemaQueryVO.getNowPage(), cinemaQueryVO.getPageSize());
+
+        if(brandId!=99) {
+            entityWrapper.eq("brand_id", brandId);
         }
+        if(areaId!=99){
+            entityWrapper.eq("area_id", areaId);
+        }
+        if(hallType!=99){
+            entityWrapper.like("hall_ids", "#" + hallType + "#");
+        }
+        List<CinemaT> cinemaTList= cinemaTMapper.selectPage(page, entityWrapper);
         for (CinemaT cinemaT : cinemaTList) {
+            CinemaVO cinemaVO = new CinemaVO();
             cinemaVO.setUuid(cinemaT.getUuid());
             cinemaVO.setCinemaName(cinemaT.getCinemaName());
             cinemaVO.setCinemaAddress(cinemaT.getCinemaAddress());
             cinemaVO.setMinimumPrice(cinemaT.getMinimumPrice());
             list.add(cinemaVO);
         }
-        page = page.setRecords(list);
-        return page;
-    }*/
+        Page<CinemaVO> result=new Page<>();
+        result.setRecords(list);
+
+        return result;
+    }
 
     @Override
     public List<BrandVO> getBrands(int brandId) {
         List<BrandVO> list = new ArrayList<>();
-        BrandVO brandVO = new BrandVO();
-        List<BrandDictT> brandDictTList;
         EntityWrapper<BrandDictT> entityWrapper = new EntityWrapper<>();
-        if (brandId == 99) {
+        List<BrandDictT> brandDictTList;
+        if(brandId==99) {
             brandDictTList = brandDictTMapper.selectList(entityWrapper);
-        } else {
-            entityWrapper.eq("UUID", brandId);
-            brandDictTList = brandDictTMapper.selectList(entityWrapper);
+        }else{
+            return null;
         }
         for (BrandDictT brandDictT : brandDictTList) {
+            BrandVO brandVO = new BrandVO();
             brandVO.setBrandId(brandDictT.getUuid());
             brandVO.setBrandName(brandDictT.getShowName());
             if (brandId == brandDictT.getUuid()) {
@@ -91,16 +99,15 @@ public class CinemaServiceImpl implements CinemaService {
     @Override
     public List<AreaVO> getAreas(int areaId) {
         List<AreaVO> list = new ArrayList<>();
-        AreaVO areaVO = new AreaVO();
-        List<AreaDictT> areaDictTList;
         EntityWrapper<AreaDictT> entityWrapper = new EntityWrapper<>();
-        if (areaId == 99) {
+        List<AreaDictT> areaDictTList;
+        if(areaId==99) {
             areaDictTList = areaDictTMapper.selectList(entityWrapper);
-        } else {
-            entityWrapper.eq("UUID", areaId);
-            areaDictTList = areaDictTMapper.selectList(entityWrapper);
+        }else{
+            return null;
         }
         for (AreaDictT areaDictT : areaDictTList) {
+            AreaVO areaVO = new AreaVO();
             areaVO.setAreaId(areaDictT.getUuid());
             areaVO.setAreaName(areaDictT.getShowName());
             if (areaId == areaDictT.getUuid()) {
@@ -116,16 +123,15 @@ public class CinemaServiceImpl implements CinemaService {
     @Override
     public List<HallTypeVO> getHallType(int hallType) {
         List<HallTypeVO> list = new ArrayList<>();
-        HallTypeVO hallTypeVO = new HallTypeVO();
-        List<HallDictT> hallDictTList;
         EntityWrapper<HallDictT> entityWrapper = new EntityWrapper<>();
-        if (hallType == 99) {
+        List<HallDictT> hallDictTList;
+        if(hallType==99) {
             hallDictTList = hallDictTMapper.selectList(entityWrapper);
-        } else {
-            entityWrapper.eq("UUID", hallType);
-            hallDictTList = hallDictTMapper.selectList(entityWrapper);
+        }else{
+            return null;
         }
         for (HallDictT hallDictT : hallDictTList) {
+            HallTypeVO hallTypeVO = new HallTypeVO();
             hallTypeVO.setHalltypeId(hallDictT.getUuid());
             hallTypeVO.setHalltype(hallDictT.getShowName());
             if (hallType == hallDictT.getUuid()) {

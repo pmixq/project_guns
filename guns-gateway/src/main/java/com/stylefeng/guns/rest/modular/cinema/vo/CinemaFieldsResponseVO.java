@@ -1,6 +1,6 @@
 package com.stylefeng.guns.rest.modular.cinema.vo;
 
-import com.stylefeng.guns.rest.modular.vo.CinemaInfoVO;
+
 
 import java.util.List;
 

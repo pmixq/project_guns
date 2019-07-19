@@ -9,6 +9,17 @@ public class CinemaQueryVO implements Serializable {
     private Integer pageSize=12;
     private Integer nowPage=1;
 
+    public CinemaQueryVO() {
+    }
+
+    public CinemaQueryVO(Integer brandId, Integer areaId, Integer hallType, Integer pageSize, Integer nowPage) {
+        this.brandId = brandId;
+        this.areaId = areaId;
+        this.hallType = hallType;
+        this.pageSize = pageSize;
+        this.nowPage = nowPage;
+    }
+
     public Integer getBrandId() {
         return brandId;
     }

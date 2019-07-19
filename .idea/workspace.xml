@@ -2,36 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c517f64-5feb-4a07-9776-43a7f6aeebe1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/guns-common-api/src/main/java/com/stylefeng/guns/rest/modular/cinema/vo/FilmFieldVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guns-common-api/src/main/java/com/stylefeng/guns/rest/modular/cinema/vo/FilmInfoVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guns-common-api/src/main/java/com/stylefeng/guns/rest/modular/cinema/vo/HallInfoVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/cinema/vo/CinemaFieldsResponseVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/cinema/vo/CinemaFilmResponseVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guns-cinema/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/guns-cinema/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns-cinema/src/main/java/com/stylefeng/guns/rest/GunsCinemaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/guns-cinema/src/main/java/com/stylefeng/guns/rest/GunsCinemaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns-cinema/src/main/java/com/stylefeng/guns/rest/common/persistence/dao/FieldTMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/guns-cinema/src/main/java/com/stylefeng/guns/rest/common/persistence/dao/FieldTMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns-cinema/src/main/java/com/stylefeng/guns/rest/common/persistence/dao/mapping/FieldTMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/guns-cinema/src/main/java/com/stylefeng/guns/rest/common/persistence/dao/mapping/FieldTMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guns-cinema/src/main/java/com/stylefeng/guns/rest/modular/cinema/service/impl/CinemaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/guns-cinema/src/main/java/com/stylefeng/guns/rest/modular/cinema/service/impl/CinemaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns-cinema/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/guns-cinema/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns-common-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/guns-common-api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guns-common-api/src/main/java/com/stylefeng/guns/rest/modular/cinema/Service/CinemaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/guns-common-api/src/main/java/com/stylefeng/guns/rest/modular/cinema/Service/CinemaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns-film/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/guns-film/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns-film/src/main/java/com/stylefeng/guns/rest/modular/film/service/impl/FilmServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/guns-film/src/main/java/com/stylefeng/guns/rest/modular/film/service/impl/FilmServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guns-common-api/src/main/java/com/stylefeng/guns/rest/modular/cinema/vo/CinemaQueryVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/guns-common-api/src/main/java/com/stylefeng/guns/rest/modular/cinema/vo/CinemaQueryVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/cinema/controller/CinemaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/cinema/controller/CinemaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/cinema/vo/ResponseVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/cinema/vo/ResponseVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/guns-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/cinema/vo/CinemaFieldsResponseVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/cinema/vo/CinemaFieldsResponseVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/cinema/vo/CinemaFilmResponseVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/cinema/vo/CinemaFilmResponseVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/film/controller/FilmController.java" beforeDir="false" afterPath="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/film/controller/FilmController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guns-rest.log" beforeDir="false" afterPath="$PROJECT_DIR$/guns-rest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns-rest/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/guns-rest/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/guns-admin/target/" />
     <ignored path="$PROJECT_DIR$/guns-gateway/target/" />
@@ -50,25 +32,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guns-film/pom.xml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/cinema/controller/CinemaController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guns-film/src/main/java/com/stylefeng/guns/rest/GunsFilmApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="81">
+              <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,50 +49,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guns-film/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/guns-common-api/src/main/java/com/stylefeng/guns/rest/modular/cinema/vo/CinemaVO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-405" />
+            <state relative-caret-position="108">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guns-common-api/src/main/java/com/stylefeng/guns/rest/modular/cinema/Service/CinemaService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guns-cinema/src/main/java/com/stylefeng/guns/rest/modular/cinema/service/impl/CinemaServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guns-cinema/src/main/java/com/stylefeng/guns/rest/GunsCinemaApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/guns-common-api/src/main/java/com/stylefeng/guns/rest/modular/cinema/Service/CinemaService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/cinema/controller/CinemaController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="654">
-              <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+            <state relative-caret-position="918">
+              <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,11 +83,20 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>BaseMapper</find>
       <find>Row</find>
       <find>page</find>
+      <find>beans</find>
+      <find>property</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -150,22 +112,29 @@
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/guns-cinema/pom.xml" />
         <option value="$PROJECT_DIR$/guns-rest/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/guns-film/pom.xml" />
         <option value="$PROJECT_DIR$/guns-film/src/main/java/com/stylefeng/guns/rest/modular/film/service/impl/FilmServiceImpl.java" />
-        <option value="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/cinema/controller/CinemaController.java" />
+        <option value="$PROJECT_DIR$/guns-cinema/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/guns-common-api/src/main/java/com/stylefeng/guns/rest/modular/cinema/vo/CinemaQueryVO.java" />
+        <option value="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/cinema/vo/CinemaFieldsResponseVO.java" />
+        <option value="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/cinema/vo/CinemaFilmResponseVO.java" />
+        <option value="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/film/controller/FilmController.java" />
+        <option value="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/cinema/vo/ConditionInfo.java" />
+        <option value="$PROJECT_DIR$/guns-cinema/src/test/java/com/stylefeng/guns/cinema/MyTest.java" />
         <option value="$PROJECT_DIR$/guns-common-api/src/main/java/com/stylefeng/guns/rest/modular/cinema/Service/CinemaService.java" />
         <option value="$PROJECT_DIR$/guns-cinema/src/main/java/com/stylefeng/guns/rest/modular/cinema/service/impl/CinemaServiceImpl.java" />
+        <option value="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/cinema/controller/CinemaController.java" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\maven\repository" />
-        <option name="mavenHome" value="D:/maven/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.1\conf\settings.xml" />
+        <option name="localRepository" value="D:\repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -176,7 +145,21 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="guns-cinema" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="guns-cinema" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="guns-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -184,8 +167,8 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="325" />
-    <option name="y" value="141" />
+    <option name="x" value="490" />
+    <option name="y" value="25" />
     <option name="width" value="1113" />
     <option name="height" value="652" />
   </component>
@@ -198,6 +181,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,280 +189,11 @@
               <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
               <item name="project_guns" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-cinema" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-cinema" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-cinema" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-cinema" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-cinema" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-cinema" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="modular" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-cinema" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="modular" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-cinema" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-common-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-common-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-common-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-common-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-common-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="modular" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-common-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="modular" type="462c0819:PsiDirectoryNode" />
-              <item name="cinema" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-common-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="modular" type="462c0819:PsiDirectoryNode" />
-              <item name="cinema" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-common-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="modular" type="462c0819:PsiDirectoryNode" />
-              <item name="cinema" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="modular" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="modular" type="462c0819:PsiDirectoryNode" />
-              <item name="cinema" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="modular" type="462c0819:PsiDirectoryNode" />
-              <item name="cinema" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-rest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -490,11 +205,29 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563345994456" />
-    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/cinema/vo" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitRemoteRepo\GitHub\project_guns\guns-gateway\src\main\java\com\stylefeng\guns\rest\modular\cinema\vo" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8085/cinema/getCinemas" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -508,7 +241,42 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GunsFilmApplication">
+  <component name="RunManager" selected="Spring Boot.GunsGatewayApplication">
+    <configuration name="GunsGatewayApplication#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/GunsGatewayApplication.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="MyTest.mytest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guns-cinema" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stylefeng.guns.cinema.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stylefeng.guns.cinema" />
+      <option name="MAIN_CLASS_NAME" value="com.stylefeng.guns.cinema.MyTest" />
+      <option name="METHOD_NAME" value="mytest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.mytest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guns-cinema" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stylefeng.guns.cinema.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stylefeng.guns.cinema" />
+      <option name="MAIN_CLASS_NAME" value="com.stylefeng.guns.cinema.MyTest" />
+      <option name="METHOD_NAME" value="mytest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GunsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="guns-admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.stylefeng.guns.GunsApplication" />
@@ -556,24 +324,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GunsUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="guns-user" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.stylefeng.guns.rest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.stylefeng.guns.rest.GunsUserApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.GunsGatewayApplication#1" />
         <item itemvalue="Spring Boot.GunsFilmApplication" />
+        <item itemvalue="JUnit.MyTest.mytest" />
+        <item itemvalue="JUnit.MyTest.mytest1" />
         <item itemvalue="Spring Boot.GunsRestApplication" />
-        <item itemvalue="Spring Boot.GunsUserApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -588,11 +345,35 @@
       <option name="presentableId" value="Default" />
       <updated>1563345462631</updated>
       <workItem from="1563345472871" duration="398000" />
+      <workItem from="1563504792894" duration="28076000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="MyTest_mytest1 - 2019.07.19 at 14h 42m 46s.xml">
+      <configuration name="MyTest.mytest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_mytest1 - 2019.07.19 at 14h 47m 36s.xml">
+      <configuration name="MyTest.mytest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_mytest1 - 2019.07.19 at 14h 56m 18s.xml">
+      <configuration name="MyTest.mytest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_mytest - 2019.07.19 at 17h 12m 24s.xml">
+      <configuration name="MyTest.mytest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_mytest - 2019.07.19 at 17h 13m 28s.xml">
+      <configuration name="MyTest.mytest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_mytest - 2019.07.19 at 17h 14m 42s.xml">
+      <configuration name="MyTest.mytest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_mytest - 2019.07.19 at 17h 26m 12s.xml">
+      <configuration name="MyTest.mytest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4499000" />
+    <option name="totallyTimeSpent" value="33146000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -607,7 +388,7 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25514138" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25449872" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -617,17 +398,17 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.82840616" visible="true" weight="0.1495957" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.30650684" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.82840616" weight="0.4097035" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3328841" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32884097" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.17159383" side_tool="true" weight="0.79514825" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.56426734" weight="0.17654987" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32884097" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.23393317" side_tool="true" weight="0.19272237" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.76606685" weight="0.21832883" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -635,14 +416,14 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.084190235" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.12403599" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19537275" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25449872" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -652,17 +433,17 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.82840616" weight="0.16846362" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.30650684" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.82840616" weight="0.4097035" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3328841" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32884097" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.17159383" side_tool="true" weight="0.79514825" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" sideWeight="0.56426734" visible="true" weight="0.27762803" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32884097" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.23393317" side_tool="true" weight="0.19272237" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.76606685" weight="0.21832883" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -670,7 +451,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.08483291" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.12403599" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
@@ -680,158 +461,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="hallType" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/guns-core/src/main/java/com/stylefeng/guns/core/db/Db.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
-          <folding>
-            <element signature="e#1224#1225#0" expanded="true" />
-            <element signature="e#1262#1263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="669" column="14" selection-start-line="669" selection-start-column="14" selection-end-line="669" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/cinema/vo/ResponseVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-            <element signature="e#869#870#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-            <element signature="e#1021#1022#0" expanded="true" />
-            <element signature="e#1053#1054#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1146#1147#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns-core/src/main/java/com/stylefeng/guns/core/base/controller/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/ExpenseMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns-common-api/src/main/java/com/stylefeng/guns/rest/modular/cinema/vo/HallInfoVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns-user/src/main/java/com/stylefeng/guns/rest/GunsRestServletInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns-user/src/main/java/com/stylefeng/guns/rest/GunsUserApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns-admin/src/main/java/com/stylefeng/guns/GunsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns-user/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns-rest/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns-cinema/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns-cinema/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/GunsGatewayApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns-rest/src/main/java/com/stylefeng/guns/rest/GunsRestApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2897">
-          <caret line="205" column="18" selection-start-line="205" selection-start-column="18" selection-end-line="205" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/guns-common-api/src/main/java/com/stylefeng/guns/rest/modular/film/service/FilmService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -860,6 +501,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/guns-film/src/main/java/com/stylefeng/guns/rest/GunsFilmApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-film/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/guns-film/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -867,59 +521,879 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guns-film/src/main/java/com/stylefeng/guns/rest/GunsFilmApplication.java">
+    <entry file="file://$PROJECT_DIR$/guns-cinema/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="1961">
+          <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-cinema/src/main/java/com/stylefeng/guns/rest/common/persistence/dao/CinemaTMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-admin/sql/guns.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1701" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5508">
+          <caret line="204" column="21" selection-start-line="204" selection-start-column="21" selection-end-line="204" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-core/src/main/java/com/stylefeng/guns/core/util/SimpleContrast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1098">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-rest.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="337" column="102" selection-start-line="337" selection-start-column="102" selection-end-line="337" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://SPRING/mappedClass=com.stylefeng.guns.rest.config.MybatisPlusConfig">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>SPRING</ID>
+          <OriginalElement>mappedClass=com.stylefeng.guns.rest.config.MybatisPlusConfig</OriginalElement>
+          <nodes>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.rest.GunsCinemaApplication;bean_name=gunsCinemaApplication</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.rest.modular.cinema.service.impl.CinemaServiceImpl;bean_name=cinemaServiceImpl</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.rest.common.persistence.dao.AreaDictTMapper;bean_name=areaDictTMapper</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.rest.common.persistence.dao.BrandDictTMapper;bean_name=brandDictTMapper</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.rest.common.persistence.dao.HallDictTMapper;bean_name=hallDictTMapper</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.rest.common.persistence.dao.CinemaTMapper;bean_name=cinemaTMapper</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.rest.modular.auth.util.JwtTokenUtil;bean_name=jwtTokenUtil</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.rest.config.properties.JwtProperties;bean_name=jwtProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.core.util.SpringContextHolder;bean_name=springContextHolder</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.rest.modular.product.controller.ProductController;bean_name=productController</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.rest.modular.product.service.impl.ProductServiceImpl;bean_name=productServiceImpl</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.rest.modular.example.ExampleController;bean_name=exampleController</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.core.base.controller.GlobalController;bean_name=globalController</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.rest.modular.auth.controller.AuthController;bean_name=authController</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.rest.modular.auth.validator.impl.SimpleValidator;bean_name=simpleValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.rest.modular.auth.validator.impl.DbValidator;bean_name=dbValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.rest.config.properties.RestProperties;bean_name=restProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.core.config.DefaultWebConfig;bean_name=defaultWebConfig</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.core.base.controller.GunsErrorView;bean_name=error</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping;bean_name=requestMappingHandlerMapping</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.util.PathMatcher;bean_name=mvcPathMatcher</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.web.util.UrlPathHelper;bean_name=mvcUrlPathHelper</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.web.accept.ContentNegotiationManager;bean_name=mvcContentNegotiationManager</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.web.servlet.HandlerMapping;bean_name=viewControllerHandlerMapping</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping;bean_name=beanNameHandlerMapping</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.web.servlet.HandlerMapping;bean_name=resourceHandlerMapping</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.web.servlet.resource.ResourceUrlProvider;bean_name=mvcResourceUrlProvider</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.web.servlet.HandlerMapping;bean_name=defaultServletHandlerMapping</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter;bean_name=requestMappingHandlerAdapter</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.format.support.FormattingConversionService;bean_name=mvcConversionService</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.validation.Validator;bean_name=mvcValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.web.method.support.CompositeUriComponentsContributor;bean_name=mvcUriComponentsContributor</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter;bean_name=httpRequestHandlerAdapter</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter;bean_name=simpleControllerHandlerAdapter</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.web.servlet.HandlerExceptionResolver;bean_name=handlerExceptionResolver</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.web.servlet.ViewResolver;bean_name=mvcViewResolver</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.web.servlet.handler.HandlerMappingIntrospector;bean_name=mvcHandlerMappingIntrospector</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.core.config.MultiDataSourceConfig;bean_name=multiDataSourceConfig</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.transaction.annotation.TransactionManagementConfigurationSelector;bean_name=transactionManagementConfigurationSelector</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.mybatis.spring.annotation.MapperScannerRegistrar;bean_name=mapperScannerRegistrar</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.core.config.properties.MutiDataSourceProperties;bean_name=mutiDataSourceProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.core.mutidatasource.aop.MultiSourceExAop;bean_name=multiSourceExAop</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.core.mutidatasource.DynamicDataSource;bean_name=mutiDataSource</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.baomidou.mybatisplus.plugins.PaginationInterceptor;bean_name=paginationInterceptor</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.core.datascope.DataScopeInterceptor;bean_name=dataScopeInterceptor</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.baomidou.mybatisplus.plugins.OptimisticLockerInterceptor;bean_name=optimisticLockerInterceptor</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.jdbc.datasource.DataSourceTransactionManager;bean_name=dataSourceTransactionManager</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.core.config.DefaultFastjsonConfig;bean_name=defaultFastjsonConfig</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;bean_name=fastJsonHttpMessageConverter</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.core.config.SingleDataSourceConfig;bean_name=singleDataSourceConfig</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.alibaba.druid.pool.DruidDataSource;bean_name=dataSource</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.rest.config.WebConfig;bean_name=webConfig</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.rest.modular.auth.filter.AuthFilter;bean_name=jwtAuthenticationTokenFilter</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.rest.modular.auth.security.DataSecurityAction;bean_name=dataSecurityAction</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.rest.config.MessageConverConfig;bean_name=messageConverConfig</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.rest.modular.auth.converter.WithSignMessageConverter;bean_name=withSignMessageConverter</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.core.config.DefaultProperties;bean_name=defaultProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.core.config.properties.DruidProperties;bean_name=druidProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.core.config.DefaultMultiConfig;bean_name=defaultMultiConfig</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.rest.config.MybatisPlusConfig;bean_name=mybatisPlusConfig</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.stylefeng.guns.rest.common.aop.GlobalExceptionHandler;bean_name=globalExceptionHandler</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration;bean_name=dispatcherServletRegistrationConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration.DispatcherServletConfiguration;bean_name=dispatcherServletConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.web.servlet.DispatcherServlet;bean_name=dispatcherServlet</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.web.multipart.MultipartResolver;bean_name=multipartResolver</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.web.servlet.ServletRegistrationBean;bean_name=dispatcherServletRegistration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.context.properties.EnableConfigurationPropertiesImportSelector;bean_name=enableConfigurationPropertiesImportSelector</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties;bean_name=spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.audit.AuditEventsEndpointAutoConfiguration;bean_name=auditEventsEndpointAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.audit.AuditEventsEndpoint;bean_name=auditEventsEndpoint</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration;bean_name=embeddedWebServerFactoryCustomizerAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.web.ServerProperties;bean_name=server-org.springframework.boot.autoconfigure.web.ServerProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration;bean_name=mybatisPlusAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.apache.ibatis.session.SqlSessionFactory;bean_name=sqlSessionFactory</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.mybatis.spring.SqlSessionTemplate;bean_name=sqlSessionTemplate</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration.MapperScannerRegistrarNotFoundConfiguration;bean_name=mapperScannerRegistrarNotFoundConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration.AutoConfiguredMapperScannerRegistrar;bean_name=autoConfiguredMapperScannerRegistrar</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusProperties;bean_name=mybatis-plus-com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;bean_name=dataSourceAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration;bean_name=dataSourcePoolMetadataProvidersConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.jdbc.DataSourceInitializationConfiguration;bean_name=dataSourceInitializationConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker;bean_name=dataSourceInitializerInvoker</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.jdbc.DataSourceInitializationConfiguration.Registrar;bean_name=registrar</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration.HikariPoolDataSourceMetadataProviderConfiguration;bean_name=hikariPoolDataSourceMetadataProviderConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.jdbc.metadata.DataSourcePoolMetadataProvider;bean_name=hikariPoolDataSourceMetadataProvider</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration.PooledDataSourceConfiguration;bean_name=pooledDataSourceConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.Hikari;bean_name=hikari</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.zaxxer.hikari.HikariDataSource;bean_name=dataSource</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration;bean_name=dataSourceJmxConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration.Hikari;bean_name=hikari</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;bean_name=spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.metrics.web.client.RestTemplateMetricsAutoConfiguration;bean_name=restTemplateMetricsAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.metrics.web.client.DefaultRestTemplateExchangeTagsProvider;bean_name=restTemplateTagConfigurer</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.metrics.web.client.MetricsRestTemplateCustomizer;bean_name=metricsRestTemplateCustomizer</node>
+            <node x="" y="">module=guns-cinema;bean_class=io.micrometer.core.instrument.config.MeterFilter;bean_name=metricsWebClientUriTagFilter</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration;bean_name=codecsAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration.JacksonCodecConfiguration;bean_name=jacksonCodecConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.web.codec.CodecCustomizer;bean_name=jacksonCodecCustomizer</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.metrics.cache.CacheMetricsAutoConfiguration;bean_name=cacheMetricsAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.metrics.cache.CacheMeterBinderProvidersConfiguration;bean_name=cacheMeterBinderProvidersConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.metrics.cache.CacheMetricsRegistrarConfiguration;bean_name=cacheMetricsRegistrarConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.metrics.cache.CacheMetricsRegistrar;bean_name=cacheMetricsRegistrar</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.metrics.web.servlet.WebMvcMetricsAutoConfiguration;bean_name=webMvcMetricsAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.metrics.web.servlet.DefaultWebMvcTagsProvider;bean_name=webMvcTagsProvider</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.web.servlet.FilterRegistrationBean;bean_name=webMvcMetricsFilter</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties;bean_name=management.metrics-org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration.DataSourceTransactionManagerConfiguration;bean_name=dataSourceTransactionManagerConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.jdbc.datasource.DataSourceTransactionManager;bean_name=transactionManager</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration.StringHttpMessageConverterConfiguration;bean_name=stringHttpMessageConverterConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.http.converter.StringHttpMessageConverter;bean_name=stringHttpMessageConverter</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.http.HttpEncodingProperties;bean_name=spring.http.encoding-org.springframework.boot.autoconfigure.http.HttpEncodingProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.mongo.MongoHealthIndicatorAutoConfiguration;bean_name=mongoHealthIndicatorAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.info.InfoEndpointAutoConfiguration;bean_name=infoEndpointAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.info.InfoEndpoint;bean_name=infoEndpoint</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.trace.http.HttpTraceAutoConfiguration;bean_name=httpTraceAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.trace.http.InMemoryHttpTraceRepository;bean_name=traceRepository</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.trace.http.HttpExchangeTracer;bean_name=httpExchangeTracer</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.trace.http.HttpTraceProperties;bean_name=management.trace.http-org.springframework.boot.actuate.autoconfigure.trace.http.HttpTraceProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.system.DiskSpaceHealthIndicatorAutoConfiguration;bean_name=diskSpaceHealthIndicatorAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.system.DiskSpaceHealthIndicator;bean_name=diskSpaceHealthIndicator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.system.DiskSpaceHealthIndicatorProperties;bean_name=diskSpaceHealthIndicatorProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.audit.AuditAutoConfiguration.AuditEventRepositoryConfiguration;bean_name=auditEventRepositoryConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.audit.InMemoryAuditEventRepository;bean_name=auditEventRepository</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration;bean_name=dataSourceTransactionManagerAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.web.servlet.ServletManagementContextAutoConfiguration;bean_name=servletManagementContextAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.web.servlet.ServletManagementContextFactory;bean_name=servletWebChildContextFactory</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.web.servlet.ManagementServletContext;bean_name=managementServletContext</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration;bean_name=transactionAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers;bean_name=platformTransactionManagerCustomizers</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration.EnableTransactionManagementConfiguration;bean_name=enableTransactionManagementConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration.EnableTransactionManagementConfiguration.CglibAutoProxyConfiguration;bean_name=cglibAutoProxyConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration.TransactionTemplateConfiguration;bean_name=transactionTemplateConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.transaction.support.TransactionTemplate;bean_name=transactionTemplate</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.transaction.TransactionProperties;bean_name=spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.context.properties.ConfigurationPropertiesReportEndpointAutoConfiguration;bean_name=configurationPropertiesReportEndpointAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpoint;bean_name=configurationPropertiesReportEndpoint</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.context.properties.ConfigurationPropertiesReportEndpointProperties;bean_name=management.endpoint.configprops-org.springframework.boot.actuate.autoconfigure.context.properties.ConfigurationPropertiesReportEndpointProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration.JvmMeterBindersConfiguration;bean_name=jvmMeterBindersConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=io.micrometer.core.instrument.binder.jvm.JvmGcMetrics;bean_name=jvmGcMetrics</node>
+            <node x="" y="">module=guns-cinema;bean_class=io.micrometer.core.instrument.binder.jvm.JvmMemoryMetrics;bean_name=jvmMemoryMetrics</node>
+            <node x="" y="">module=guns-cinema;bean_class=io.micrometer.core.instrument.binder.jvm.JvmThreadMetrics;bean_name=jvmThreadMetrics</node>
+            <node x="" y="">module=guns-cinema;bean_class=io.micrometer.core.instrument.binder.jvm.ClassLoaderMetrics;bean_name=classLoaderMetrics</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.metrics.MetricsEndpointAutoConfiguration;bean_name=metricsEndpointAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.metrics.MetricsEndpoint;bean_name=metricsEndpoint</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration.SameManagementContextConfiguration;bean_name=sameManagementContextConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration.SameManagementContextConfiguration.EnableSameManagementContextConfiguration;bean_name=enableSameManagementContextConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextConfigurationImportSelector;bean_name=managementContextConfigurationImportSelector</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.web.servlet.WebMvcEndpointChildContextConfiguration;bean_name=webMvcEndpointChildContextConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.web.servlet.ManagementErrorEndpoint;bean_name=errorEndpoint</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.web.servlet.CompositeHandlerMapping;bean_name=handlerMapping</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.web.servlet.CompositeHandlerAdapter;bean_name=handlerAdapter</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.web.servlet.CompositeHandlerExceptionResolver;bean_name=handlerExceptionResolver</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.web.filter.RequestContextFilter;bean_name=requestContextFilter</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.web.context.WebApplicationContext;bean_name=webApplicationContext</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration;bean_name=delegatingWebMvcConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.endpoint.web.servlet.WebMvcEndpointManagementContextConfiguration;bean_name=webMvcEndpointManagementContextConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping;bean_name=webEndpointServletHandlerMapping</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.endpoint.web.servlet.ControllerEndpointHandlerMapping;bean_name=controllerEndpointHandlerMapping</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.endpoint.web.CorsEndpointProperties;bean_name=management.endpoints.web.cors-org.springframework.boot.actuate.autoconfigure.endpoint.web.CorsEndpointProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.endpoint.web.ServletEndpointManagementContextConfiguration;bean_name=servletEndpointManagementContextConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar;bean_name=servletEndpointRegistrar</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.endpoint.ExposeExcludePropertyEndpointFilter;bean_name=servletExposeExcludePropertyEndpointFilter</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.web.servlet.ServletManagementChildContextConfiguration;bean_name=servletManagementChildContextConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.web.servlet.ServletManagementChildContextConfiguration.ServletManagementWebServerFactoryCustomizer;bean_name=servletManagementWebServerFactoryCustomizer</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.web.servlet.ServletManagementChildContextConfiguration.UndertowAccessLogCustomizer;bean_name=undertowAccessLogCustomizer</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.web.servlet.ServletManagementChildContextConfiguration.TomcatAccessLogCustomizer;bean_name=tomcatAccessLogCustomizer</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.health.HealthIndicatorAutoConfiguration;bean_name=healthIndicatorAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.health.ApplicationHealthIndicator;bean_name=applicationHealthIndicator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.health.OrderedHealthAggregator;bean_name=healthAggregator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.health.HealthIndicatorProperties;bean_name=management.health.status-org.springframework.boot.actuate.autoconfigure.health.HealthIndicatorProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration.DefaultErrorViewResolverConfiguration;bean_name=defaultErrorViewResolverConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.web.servlet.error.DefaultErrorViewResolver;bean_name=conventionErrorViewResolver</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration;bean_name=dispatcherServletAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration;bean_name=reactiveSecurityAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.security.SecurityProperties;bean_name=spring.security-org.springframework.boot.autoconfigure.security.SecurityProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.alibaba.dubbo.spring.boot.DubboAutoConfiguration;bean_name=dubboAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.alibaba.dubbo.spring.boot.server.DubboServer;bean_name=dubboServer</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.alibaba.dubbo.spring.boot.health.DubboHealthIndicator;bean_name=dubboHealthIndicator</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.alibaba.dubbo.spring.boot.DubboProperties;bean_name=spring.dubbo-com.alibaba.dubbo.spring.boot.DubboProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.web.mappings.MappingsEndpointAutoConfiguration.ServletWebConfiguration.SpringMvcConfiguration;bean_name=springMvcConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.web.mappings.servlet.DispatcherServletsMappingDescriptionProvider;bean_name=dispatcherServletMappingDescriptionProvider</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.alibaba.dubbo.spring.boot.DubboConsumerAutoConfiguration;bean_name=dubboConsumerAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.beans.factory.config.BeanPostProcessor;bean_name=beanPostProcessor</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration;bean_name=persistenceExceptionTranslationAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor;bean_name=persistenceExceptionTranslationPostProcessor</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthIndicatorAutoConfiguration;bean_name=dataSourceHealthIndicatorAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.health.HealthIndicator;bean_name=dbHealthIndicator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration;bean_name=configurationPropertiesAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.web.mappings.MappingsEndpointAutoConfiguration.ServletWebConfiguration;bean_name=servletWebConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.web.mappings.servlet.ServletsMappingDescriptionProvider;bean_name=servletMappingDescriptionProvider</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.web.mappings.servlet.FiltersMappingDescriptionProvider;bean_name=filterMappingDescriptionProvider</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration;bean_name=jdbcTemplateAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration.NamedParameterJdbcTemplateConfiguration;bean_name=namedParameterJdbcTemplateConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration.JdbcTemplateConfiguration;bean_name=jdbcTemplateConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.jdbc.core.JdbcTemplate;bean_name=jdbcTemplate</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;bean_name=namedParameterJdbcTemplate</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.jdbc.JdbcProperties;bean_name=spring.jdbc-org.springframework.boot.autoconfigure.jdbc.JdbcProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.ParameterNamesModuleConfiguration;bean_name=parameterNamesModuleConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.fasterxml.jackson.module.paramnames.ParameterNamesModule;bean_name=parameterNamesModule</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.condition.ConditionsReportEndpointAutoConfiguration;bean_name=conditionsReportEndpointAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.condition.ConditionsReportEndpoint;bean_name=conditionsReportEndpoint</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration;bean_name=metricsAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=io.micrometer.core.instrument.Clock;bean_name=micrometerClock</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.metrics.MeterRegistryPostProcessor;bean_name=meterRegistryPostProcessor</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.metrics.PropertiesMeterFilter;bean_name=propertiesMeterFilter</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration.MeterBindersConfiguration;bean_name=meterBindersConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=io.micrometer.core.instrument.binder.logging.LogbackMetrics;bean_name=logbackMetrics</node>
+            <node x="" y="">module=guns-cinema;bean_class=io.micrometer.core.instrument.binder.system.UptimeMetrics;bean_name=uptimeMetrics</node>
+            <node x="" y="">module=guns-cinema;bean_class=io.micrometer.core.instrument.binder.system.ProcessorMetrics;bean_name=processorMetrics</node>
+            <node x="" y="">module=guns-cinema;bean_class=io.micrometer.core.instrument.binder.system.FileDescriptorMetrics;bean_name=fileDescriptorMetrics</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration.EnableWebMvcConfiguration;bean_name=enableWebMvcConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration;bean_name=projectInfoAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.info.GitProperties;bean_name=gitProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.info.BuildProperties;bean_name=buildProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.info.ProjectInfoProperties;bean_name=spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.cloudfoundry.servlet.CloudFoundryActuatorAutoConfiguration;bean_name=cloudFoundryActuatorAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.cloudfoundry.servlet.CloudFoundryHealthEndpointWebExtension;bean_name=cloudFoundryHealthEndpointWebExtension</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.cloudfoundry.servlet.CloudFoundryWebEndpointServletHandlerMapping;bean_name=cloudFoundryWebEndpointServletHandlerMapping</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.health.HealthEndpointAutoConfiguration;bean_name=healthEndpointAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.health.HealthEndpointConfiguration;bean_name=healthEndpointConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.health.HealthEndpoint;bean_name=healthEndpoint</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.health.HealthEndpointWebExtensionConfiguration;bean_name=healthEndpointWebExtensionConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.health.HealthStatusHttpMapper;bean_name=createHealthStatusHttpMapper</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.health.HealthWebEndpointResponseMapper;bean_name=healthWebEndpointResponseMapper</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.health.HealthEndpointWebExtensionConfiguration.ServletWebHealthConfiguration;bean_name=servletWebHealthConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.health.HealthEndpointWebExtension;bean_name=healthEndpointWebExtension</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.health.HealthEndpointProperties;bean_name=management.endpoint.health-org.springframework.boot.actuate.autoconfigure.health.HealthEndpointProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.info.InfoContributorAutoConfiguration;bean_name=infoContributorAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.info.EnvironmentInfoContributor;bean_name=envInfoContributor</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.info.GitInfoContributor;bean_name=gitInfoContributor</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.info.InfoContributor;bean_name=buildInfoContributor</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.info.InfoContributorProperties;bean_name=management.info-org.springframework.boot.actuate.autoconfigure.info.InfoContributorProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.env.EnvironmentEndpointAutoConfiguration;bean_name=environmentEndpointAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.env.EnvironmentEndpoint;bean_name=environmentEndpoint</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.env.EnvironmentEndpointWebExtension;bean_name=environmentWebEndpointExtension</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.env.EnvironmentEndpointProperties;bean_name=management.endpoint.env-org.springframework.boot.actuate.autoconfigure.env.EnvironmentEndpointProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.elasticsearch.ElasticsearchHealthIndicatorAutoConfiguration;bean_name=elasticsearchHealthIndicatorAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration.TomcatWebSocketConfiguration;bean_name=tomcatWebSocketConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.websocket.servlet.TomcatWebSocketServletWebServerCustomizer;bean_name=websocketContainerCustomizer</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration;bean_name=multipartAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=javax.servlet.MultipartConfigElement;bean_name=multipartConfigElement</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.web.multipart.support.StandardServletMultipartResolver;bean_name=multipartResolver</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.web.servlet.MultipartProperties;bean_name=spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.redis.RedisHealthIndicatorAutoConfiguration;bean_name=redisHealthIndicatorAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.metrics.jdbc.DataSourcePoolMetricsAutoConfiguration;bean_name=dataSourcePoolMetricsAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.metrics.jdbc.DataSourcePoolMetricsAutoConfiguration.HikariDataSourceMetricsConfiguration;bean_name=hikariDataSourceMetricsConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.metrics.jdbc.HikariDataSourceMetricsPostProcessor;bean_name=hikariDataSourceMetricsPostProcessor</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration;bean_name=whitelabelErrorViewConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.web.servlet.View;bean_name=error</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.web.servlet.view.BeanNameViewResolver;bean_name=beanNameViewResolver</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.metrics.web.tomcat.TomcatMetricsAutoConfiguration;bean_name=tomcatMetricsAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=io.micrometer.core.instrument.binder.tomcat.TomcatMetrics;bean_name=tomcatMetrics</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.web.server.WebServerFactoryCustomizer;bean_name=contextCapturingServletTomcatCustomizer</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.web.server.WebServerFactoryCustomizer;bean_name=contextCapturingReactiveTomcatCustomizer</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.metrics.CompositeMeterRegistryAutoConfiguration;bean_name=compositeMeterRegistryAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.metrics.NoOpMeterRegistryConfiguration;bean_name=noOpMeterRegistryConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=io.micrometer.core.instrument.composite.CompositeMeterRegistry;bean_name=noOpMeterRegistry</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.metrics.CompositeMeterRegistryConfiguration;bean_name=compositeMeterRegistryConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=io.micrometer.core.instrument.composite.CompositeMeterRegistry;bean_name=compositeMeterRegistry</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.alibaba.dubbo.spring.boot.DubboProviderAutoConfiguration;bean_name=dubboProviderAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration;bean_name=messageSourceAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.context.MessageSourceProperties;bean_name=messageSourceProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.context.MessageSource;bean_name=messageSource</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.web.mappings.MappingsEndpointAutoConfiguration;bean_name=mappingsEndpointAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.web.mappings.MappingsEndpoint;bean_name=mappingsEndpoint</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.scheduling.ScheduledTasksEndpointAutoConfiguration;bean_name=scheduledTasksEndpointAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.scheduling.ScheduledTasksEndpoint;bean_name=scheduledTasksEndpoint</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.beans.BeansEndpointAutoConfiguration;bean_name=beansEndpointAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.beans.BeansEndpoint;bean_name=beansEndpoint</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointAutoConfiguration.WebEndpointServletAutoConfiguration;bean_name=webEndpointServletAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.endpoint.web.annotation.ServletEndpointDiscoverer;bean_name=servletEndpointDiscoverer</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration;bean_name=httpMessageConvertersAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration;bean_name=jacksonHttpMessageConvertersConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.http.HttpMessageConverters;bean_name=messageConverters</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration.MappingJackson2HttpMessageConverterConfiguration;bean_name=mappingJackson2HttpMessageConverterConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;bean_name=mappingJackson2HttpMessageConverter</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointAutoConfiguration;bean_name=webEndpointAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.endpoint.web.PathMapper;bean_name=webEndpointPathMapper</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.endpoint.web.EndpointMediaTypes;bean_name=endpointMediaTypes</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.endpoint.web.annotation.WebEndpointDiscoverer;bean_name=webEndpointDiscoverer</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.endpoint.web.annotation.ControllerEndpointDiscoverer;bean_name=controllerEndpointDiscoverer</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.endpoint.web.PathMappedEndpoints;bean_name=pathMappedEndpoints</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.endpoint.ExposeExcludePropertyEndpointFilter;bean_name=webExposeExcludePropertyEndpointFilter</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.endpoint.ExposeExcludePropertyEndpointFilter;bean_name=controllerExposeExcludePropertyEndpointFilter</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointProperties;bean_name=management.endpoints.web-org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.management.ThreadDumpEndpointAutoConfiguration;bean_name=threadDumpEndpointAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.management.ThreadDumpEndpoint;bean_name=dumpEndpoint</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.Jackson2ObjectMapperBuilderCustomizerConfiguration;bean_name=jackson2ObjectMapperBuilderCustomizerConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.Jackson2ObjectMapperBuilderCustomizerConfiguration.StandardJackson2ObjectMapperBuilderCustomizer;bean_name=standardJacksonObjectMapperBuilderCustomizer</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonProperties;bean_name=spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.logging.LogFileWebEndpointAutoConfiguration;bean_name=logFileWebEndpointAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.logging.LogFileWebEndpoint;bean_name=logFileWebEndpoint</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.logging.LogFileWebEndpointProperties;bean_name=management.endpoint.logfile-org.springframework.boot.actuate.autoconfigure.logging.LogFileWebEndpointProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.management.HeapDumpWebEndpointAutoConfiguration;bean_name=heapDumpWebEndpointAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.management.HeapDumpWebEndpoint;bean_name=heapDumpWebEndpoint</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration;bean_name=jmxAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.jmx.export.annotation.AnnotationMBeanExporter;bean_name=mbeanExporter</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.jmx.ParentAwareNamingStrategy;bean_name=objectNamingStrategy</node>
+            <node x="" y="">module=guns-cinema;bean_class=javax.management.MBeanServer;bean_name=mbeanServer</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.logging.LoggersEndpointAutoConfiguration;bean_name=loggersEndpointAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.logging.LoggersEndpoint;bean_name=loggersEndpoint</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration;bean_name=cacheAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration.CacheConfigurationImportSelector;bean_name=cacheConfigurationImportSelector</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.cache.CacheManagerCustomizers;bean_name=cacheManagerCustomizers</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration.CacheManagerValidatorPostProcessor;bean_name=cacheAutoConfigurationValidatorPostProcessor</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration.CacheManagerValidator;bean_name=cacheAutoConfigurationValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.cache.concurrent.ConcurrentMapCacheManager;bean_name=cacheManager</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.cache.CacheProperties;bean_name=spring.cache-org.springframework.boot.autoconfigure.cache.CacheProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.cache.SimpleCacheConfiguration;bean_name=simpleCacheConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration;bean_name=managementContextAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.web.server.ManagementServerProperties;bean_name=management.server-org.springframework.boot.actuate.autoconfigure.web.server.ManagementServerProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration;bean_name=webSocketServletAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration;bean_name=errorMvcAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.web.servlet.error.DefaultErrorAttributes;bean_name=errorAttributes</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController;bean_name=basicErrorController</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration.ErrorPageCustomizer;bean_name=errorPageCustomizer</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration.PreserveErrorControllerTargetClassPostProcessor;bean_name=preserveErrorControllerTargetClassPostProcessor</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.web.ResourceProperties;bean_name=spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration;bean_name=httpEncodingAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.web.filter.CharacterEncodingFilter;bean_name=characterEncodingFilter</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration.LocaleCharsetMappingsCustomizer;bean_name=localeCharsetMappingsCustomizer</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration;bean_name=webMvcAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.web.servlet.filter.OrderedHiddenHttpMethodFilter;bean_name=hiddenHttpMethodFilter</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.web.servlet.filter.OrderedHttpPutFormContentFilter;bean_name=httpPutFormContentFilter</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter;bean_name=webMvcAutoConfigurationAdapter</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.web.servlet.view.InternalResourceViewResolver;bean_name=defaultViewResolver</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.web.servlet.view.ContentNegotiatingViewResolver;bean_name=viewResolver</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.web.servlet.LocaleResolver;bean_name=localeResolver</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping;bean_name=welcomePageHandlerMapping</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter.FaviconConfiguration;bean_name=faviconConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.web.servlet.handler.SimpleUrlHandlerMapping;bean_name=faviconHandlerMapping</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.web.servlet.resource.ResourceHttpRequestHandler;bean_name=faviconRequestHandler</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration;bean_name=restTemplateAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.web.client.RestTemplateBuilder;bean_name=restTemplateBuilder</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.endpoint.jmx.JmxEndpointAutoConfiguration;bean_name=jmxEndpointAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.endpoint.jmx.annotation.JmxEndpointDiscoverer;bean_name=jmxAnnotationEndpointDiscoverer</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.endpoint.jmx.JmxEndpointExporter;bean_name=jmxMBeanExporter</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.endpoint.ExposeExcludePropertyEndpointFilter;bean_name=jmxIncludeExcludePropertyEndpointFilter</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.endpoint.jmx.JmxEndpointProperties;bean_name=management.endpoints.jmx-org.springframework.boot.actuate.autoconfigure.endpoint.jmx.JmxEndpointProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration;bean_name=servletWebServerFactoryAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration.BeanPostProcessorsRegistrar;bean_name=beanPostProcessorsRegistrar</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration.EmbeddedTomcat;bean_name=embeddedTomcat</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory;bean_name=tomcatServletWebServerFactory</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryCustomizer;bean_name=servletWebServerFactoryCustomizer</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.web.servlet.TomcatServletWebServerFactoryCustomizer;bean_name=tomcatServletWebServerFactoryCustomizer</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.JacksonObjectMapperConfiguration;bean_name=jacksonObjectMapperConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=com.fasterxml.jackson.databind.ObjectMapper;bean_name=jacksonObjectMapper</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleMetricsExportAutoConfiguration;bean_name=simpleMetricsExportAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=io.micrometer.core.instrument.simple.SimpleMeterRegistry;bean_name=simpleMeterRegistry</node>
+            <node x="" y="">module=guns-cinema;bean_class=io.micrometer.core.instrument.simple.SimpleConfig;bean_name=simpleConfig</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleProperties;bean_name=management.metrics.export.simple-org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleProperties</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration;bean_name=jacksonAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.jackson.JsonComponentModule;bean_name=jsonComponentModule</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.JacksonObjectMapperBuilderConfiguration;bean_name=jacksonObjectMapperBuilderConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;bean_name=jacksonObjectMapperBuilder</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.audit.AuditAutoConfiguration;bean_name=auditAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.audit.listener.AuditListener;bean_name=auditListener</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.security.AuthenticationAuditListener;bean_name=authenticationAuditListener</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.security.AuthorizationAuditListener;bean_name=authorizationAuditListener</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration;bean_name=validationAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.validation.PrimaryDefaultValidatorPostProcessor;bean_name=primaryDefaultValidatorPostProcessor</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;bean_name=defaultValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.validation.beanvalidation.MethodValidationPostProcessor;bean_name=methodValidationPostProcessor</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.money.DecimalMinValidatorForMonetaryAmount;bean_name=decimalMinValidatorForMonetaryAmount</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.money.NegativeValidatorForMonetaryAmount;bean_name=negativeValidatorForMonetaryAmount</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.money.NegativeOrZeroValidatorForMonetaryAmount;bean_name=negativeOrZeroValidatorForMonetaryAmount</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.money.DecimalMaxValidatorForMonetaryAmount;bean_name=decimalMaxValidatorForMonetaryAmount</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.money.CurrencyValidatorForMonetaryAmount;bean_name=currencyValidatorForMonetaryAmount</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.money.PositiveValidatorForMonetaryAmount;bean_name=positiveValidatorForMonetaryAmount</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.money.MaxValidatorForMonetaryAmount;bean_name=maxValidatorForMonetaryAmount</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForShort;bean_name=negativeValidatorForShort</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForNumber;bean_name=negativeOrZeroValidatorForNumber</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForShort;bean_name=negativeOrZeroValidatorForShort</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForInteger;bean_name=positiveOrZeroValidatorForInteger</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForLong;bean_name=positiveOrZeroValidatorForLong</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForDouble;bean_name=negativeValidatorForDouble</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForDouble;bean_name=negativeOrZeroValidatorForDouble</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForBigInteger;bean_name=negativeOrZeroValidatorForBigInteger</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForDouble;bean_name=positiveValidatorForDouble</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForBigDecimal;bean_name=negativeOrZeroValidatorForBigDecimal</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForInteger;bean_name=negativeValidatorForInteger</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForFloat;bean_name=negativeValidatorForFloat</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForBigDecimal;bean_name=positiveOrZeroValidatorForBigDecimal</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForByte;bean_name=negativeValidatorForByte</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForByte;bean_name=positiveOrZeroValidatorForByte</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForLong;bean_name=positiveValidatorForLong</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForNumber;bean_name=positiveValidatorForNumber</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForDouble;bean_name=positiveOrZeroValidatorForDouble</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForLong;bean_name=negativeOrZeroValidatorForLong</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForFloat;bean_name=positiveOrZeroValidatorForFloat</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForShort;bean_name=positiveValidatorForShort</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForInteger;bean_name=negativeOrZeroValidatorForInteger</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForLong;bean_name=negativeValidatorForLong</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForBigInteger;bean_name=positiveOrZeroValidatorForBigInteger</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForByte;bean_name=negativeOrZeroValidatorForByte</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForNumber;bean_name=negativeValidatorForNumber</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForBigDecimal;bean_name=positiveValidatorForBigDecimal</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForBigInteger;bean_name=negativeValidatorForBigInteger</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForFloat;bean_name=positiveValidatorForFloat</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForInteger;bean_name=positiveValidatorForInteger</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForFloat;bean_name=negativeOrZeroValidatorForFloat</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForNumber;bean_name=positiveOrZeroValidatorForNumber</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForBigDecimal;bean_name=negativeValidatorForBigDecimal</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForByte;bean_name=positiveValidatorForByte</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForBigInteger;bean_name=positiveValidatorForBigInteger</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForShort;bean_name=positiveOrZeroValidatorForShort</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForNumber;bean_name=minValidatorForNumber</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForBigDecimal;bean_name=maxValidatorForBigDecimal</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForLong;bean_name=maxValidatorForLong</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForDouble;bean_name=minValidatorForDouble</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForBigInteger;bean_name=minValidatorForBigInteger</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForNumber;bean_name=maxValidatorForNumber</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForDouble;bean_name=maxValidatorForDouble</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForBigDecimal;bean_name=minValidatorForBigDecimal</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForFloat;bean_name=maxValidatorForFloat</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForBigInteger;bean_name=maxValidatorForBigInteger</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForLong;bean_name=minValidatorForLong</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForFloat;bean_name=minValidatorForFloat</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMinValidatorForBigInteger;bean_name=decimalMinValidatorForBigInteger</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.AbstractEmailValidator;bean_name=abstractEmailValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMinValidatorForNumber;bean_name=decimalMinValidatorForNumber</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMinValidatorForBigDecimal;bean_name=decimalMinValidatorForBigDecimal</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.NotBlankValidator;bean_name=notBlankValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMinValidatorForDouble;bean_name=decimalMinValidatorForDouble</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.EmailValidator;bean_name=emailValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMaxValidatorForBigInteger;bean_name=decimalMaxValidatorForBigInteger</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.DecimalMinValidatorForCharSequence;bean_name=decimalMinValidatorForCharSequence</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMaxValidatorForDouble;bean_name=decimalMaxValidatorForDouble</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.PatternValidator;bean_name=patternValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMinValidatorForFloat;bean_name=decimalMinValidatorForFloat</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMinValidatorForLong;bean_name=decimalMinValidatorForLong</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.NotNullValidator;bean_name=notNullValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.MinValidatorForCharSequence;bean_name=minValidatorForCharSequence</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.AssertFalseValidator;bean_name=assertFalseValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMaxValidatorForFloat;bean_name=decimalMaxValidatorForFloat</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.MaxValidatorForCharSequence;bean_name=maxValidatorForCharSequence</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.DecimalMaxValidatorForCharSequence;bean_name=decimalMaxValidatorForCharSequence</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMaxValidatorForBigDecimal;bean_name=decimalMaxValidatorForBigDecimal</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.DigitsValidatorForCharSequence;bean_name=digitsValidatorForCharSequence</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMaxValidatorForNumber;bean_name=decimalMaxValidatorForNumber</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMaxValidatorForLong;bean_name=decimalMaxValidatorForLong</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.DigitsValidatorForNumber;bean_name=digitsValidatorForNumber</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.NullValidator;bean_name=nullValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.AssertTrueValidator;bean_name=assertTrueValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfChar;bean_name=notEmptyValidatorForArraysOfChar</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfFloat;bean_name=notEmptyValidatorForArraysOfFloat</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForCharSequence;bean_name=notEmptyValidatorForCharSequence</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfLong;bean_name=notEmptyValidatorForArraysOfLong</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForCollection;bean_name=notEmptyValidatorForCollection</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfByte;bean_name=sizeValidatorForArraysOfByte</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfShort;bean_name=notEmptyValidatorForArraysOfShort</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfInt;bean_name=notEmptyValidatorForArraysOfInt</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForMap;bean_name=sizeValidatorForMap</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfBoolean;bean_name=notEmptyValidatorForArraysOfBoolean</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArray;bean_name=notEmptyValidatorForArray</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfDouble;bean_name=notEmptyValidatorForArraysOfDouble</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArray;bean_name=sizeValidatorForArray</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForMap;bean_name=notEmptyValidatorForMap</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfByte;bean_name=notEmptyValidatorForArraysOfByte</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForCharSequence;bean_name=sizeValidatorForCharSequence</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfBoolean;bean_name=sizeValidatorForArraysOfBoolean</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfShort;bean_name=sizeValidatorForArraysOfShort</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForCollection;bean_name=sizeValidatorForCollection</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.EmailValidator;bean_name=emailValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.EANValidator;bean_name=EANValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfChar;bean_name=sizeValidatorForArraysOfChar</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfFloat;bean_name=sizeValidatorForArraysOfFloat</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.ScriptAssertValidator;bean_name=scriptAssertValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfDouble;bean_name=sizeValidatorForArraysOfDouble</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.URLValidator;bean_name=URLValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfLong;bean_name=sizeValidatorForArraysOfLong</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.SafeHtmlValidator;bean_name=safeHtmlValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfInt;bean_name=sizeValidatorForArraysOfInt</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.Mod11CheckValidator;bean_name=mod11CheckValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.Mod10CheckValidator;bean_name=mod10CheckValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.LuhnCheckValidator;bean_name=luhnCheckValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.NotBlankValidator;bean_name=notBlankValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.ParameterScriptAssertValidator;bean_name=parameterScriptAssertValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.CodePointLengthValidator;bean_name=codePointLengthValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.UniqueElementsValidator;bean_name=uniqueElementsValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.LengthValidator;bean_name=lengthValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForLocalDate;bean_name=pastValidatorForLocalDate</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForLocalDateTime;bean_name=pastValidatorForLocalDateTime</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.ModCheckValidator;bean_name=modCheckValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForJapaneseDate;bean_name=pastValidatorForJapaneseDate</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.ISBNValidator;bean_name=ISBNValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForReadableInstant;bean_name=pastValidatorForReadableInstant</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForCalendar;bean_name=pastValidatorForCalendar</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.br.CNPJValidator;bean_name=CNPJValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForThaiBuddhistDate;bean_name=pastValidatorForThaiBuddhistDate</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.br.CPFValidator;bean_name=CPFValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForYearMonth;bean_name=pastValidatorForYearMonth</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.pl.NIPValidator;bean_name=NIPValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForHijrahDate;bean_name=pastValidatorForHijrahDate</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.pl.REGONValidator;bean_name=REGONValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForDate;bean_name=pastValidatorForDate</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.pl.PESELValidator;bean_name=PESELValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForYear;bean_name=pastValidatorForYear</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.time.DurationMaxValidator;bean_name=durationMaxValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.time.DurationMinValidator;bean_name=durationMinValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForReadablePartial;bean_name=pastValidatorForReadablePartial</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForOffsetTime;bean_name=pastValidatorForOffsetTime</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForMonthDay;bean_name=pastValidatorForMonthDay</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForLocalTime;bean_name=pastValidatorForLocalTime</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForMinguoDate;bean_name=pastValidatorForMinguoDate</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForOffsetDateTime;bean_name=pastValidatorForOffsetDateTime</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForZonedDateTime;bean_name=pastValidatorForZonedDateTime</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForInstant;bean_name=pastValidatorForInstant</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForThaiBuddhistDate;bean_name=futureValidatorForThaiBuddhistDate</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForLocalDateTime;bean_name=futureValidatorForLocalDateTime</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForCalendar;bean_name=futureValidatorForCalendar</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForZonedDateTime;bean_name=futureValidatorForZonedDateTime</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForMonthDay;bean_name=futureValidatorForMonthDay</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForOffsetTime;bean_name=futureValidatorForOffsetTime</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForOffsetDateTime;bean_name=futureValidatorForOffsetDateTime</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForJapaneseDate;bean_name=futureValidatorForJapaneseDate</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForLocalTime;bean_name=futureValidatorForLocalTime</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForReadableInstant;bean_name=futureValidatorForReadableInstant</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForMinguoDate;bean_name=futureValidatorForMinguoDate</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForYearMonth;bean_name=futureValidatorForYearMonth</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForLocalDate;bean_name=futureValidatorForLocalDate</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForInstant;bean_name=futureValidatorForInstant</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForHijrahDate;bean_name=futureValidatorForHijrahDate</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForReadablePartial;bean_name=futureValidatorForReadablePartial</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForDate;bean_name=futureValidatorForDate</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForYear;bean_name=futureValidatorForYear</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.engine.constraintvalidation.LambdaBasedValidatorDescriptor.LambdaExecutor;bean_name=lambdaExecutor</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForCalendar;bean_name=pastOrPresentValidatorForCalendar</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForYearMonth;bean_name=pastOrPresentValidatorForYearMonth</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForLocalDate;bean_name=pastOrPresentValidatorForLocalDate</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForReadableInstant;bean_name=pastOrPresentValidatorForReadableInstant</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForMonthDay;bean_name=pastOrPresentValidatorForMonthDay</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.constraintvalidators.RegexpURLValidator;bean_name=regexpURLValidator</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForHijrahDate;bean_name=pastOrPresentValidatorForHijrahDate</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForLocalTime;bean_name=pastOrPresentValidatorForLocalTime</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForOffsetDateTime;bean_name=pastOrPresentValidatorForOffsetDateTime</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForOffsetTime;bean_name=pastOrPresentValidatorForOffsetTime</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForZonedDateTime;bean_name=pastOrPresentValidatorForZonedDateTime</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForThaiBuddhistDate;bean_name=pastOrPresentValidatorForThaiBuddhistDate</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForReadablePartial;bean_name=pastOrPresentValidatorForReadablePartial</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForInstant;bean_name=pastOrPresentValidatorForInstant</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForDate;bean_name=pastOrPresentValidatorForDate</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForJapaneseDate;bean_name=pastOrPresentValidatorForJapaneseDate</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForLocalDateTime;bean_name=pastOrPresentValidatorForLocalDateTime</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForMinguoDate;bean_name=pastOrPresentValidatorForMinguoDate</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForYear;bean_name=pastOrPresentValidatorForYear</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForReadableInstant;bean_name=futureOrPresentValidatorForReadableInstant</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForInstant;bean_name=futureOrPresentValidatorForInstant</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForLocalTime;bean_name=futureOrPresentValidatorForLocalTime</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForJapaneseDate;bean_name=futureOrPresentValidatorForJapaneseDate</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForHijrahDate;bean_name=futureOrPresentValidatorForHijrahDate</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForZonedDateTime;bean_name=futureOrPresentValidatorForZonedDateTime</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForLocalDateTime;bean_name=futureOrPresentValidatorForLocalDateTime</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForCalendar;bean_name=futureOrPresentValidatorForCalendar</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForMonthDay;bean_name=futureOrPresentValidatorForMonthDay</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForOffsetTime;bean_name=futureOrPresentValidatorForOffsetTime</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForThaiBuddhistDate;bean_name=futureOrPresentValidatorForThaiBuddhistDate</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForOffsetDateTime;bean_name=futureOrPresentValidatorForOffsetDateTime</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForReadablePartial;bean_name=futureOrPresentValidatorForReadablePartial</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForLocalDate;bean_name=futureOrPresentValidatorForLocalDate</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForMinguoDate;bean_name=futureOrPresentValidatorForMinguoDate</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForYearMonth;bean_name=futureOrPresentValidatorForYearMonth</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForDate;bean_name=futureOrPresentValidatorForDate</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForYear;bean_name=futureOrPresentValidatorForYear</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.money.PositiveOrZeroValidatorForMonetaryAmount;bean_name=positiveOrZeroValidatorForMonetaryAmount</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.money.MinValidatorForMonetaryAmount;bean_name=minValidatorForMonetaryAmount</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.context.ShutdownEndpointAutoConfiguration;bean_name=shutdownEndpointAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.context.ShutdownEndpoint;bean_name=shutdownEndpoint</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.trace.http.HttpTraceEndpointAutoConfiguration;bean_name=httpTraceEndpointAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.trace.http.HttpTraceEndpoint;bean_name=httpTraceEndpoint</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration;bean_name=propertyPlaceholderAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.context.support.PropertySourcesPlaceholderConfigurer;bean_name=propertySourcesPlaceholderConfigurer</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.autoconfigure.endpoint.EndpointAutoConfiguration;bean_name=endpointAutoConfiguration</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.endpoint.invoke.ParameterValueMapper;bean_name=endpointOperationParameterMapper</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.actuate.endpoint.invoker.cache.CachingOperationInvokerAdvisor;bean_name=endpointCachingOperationInvokerAdvisor</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.core.env.Environment;bean_name=environment</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.core.env.PropertyResolver;bean_name=propertyResolver</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.core.convert.ConversionService;bean_name=conversionService</node>
+            <node x="" y="">module=guns-cinema;bean_class=javax.servlet.ServletConfig;bean_name=servletConfig</node>
+            <node x="" y="">module=guns-cinema;bean_class=javax.servlet.http.HttpServletRequest;bean_name=httpServletRequest</node>
+            <node x="" y="">module=guns-cinema;bean_class=javax.servlet.ServletContext;bean_name=servletContext</node>
+            <node x="" y="">module=guns-cinema;bean_class=javax.servlet.http.HttpSession;bean_name=httpSession</node>
+            <node x="" y="">module=guns-cinema;bean_class=org.springframework.boot.ApplicationArguments;bean_name=springApplicationArguments</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.10133382734346054" x="2832.5" y="2689.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Local context</Category>
+            <Category>Properties</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-common-api/src/main/java/com/stylefeng/guns/rest/modular/cinema/vo/CinemaQueryVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-cinema/src/main/java/com/stylefeng/guns/rest/config/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-cinema/src/main/java/com/stylefeng/guns/rest/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project_mall/src/test/java/com/cskaoyan/mallSpringboot/RoleTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-film/src/main/java/com/stylefeng/guns/rest/modular/film/service/impl/FilmServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guns-film/src/main/java/com/stylefeng/guns/rest/modular/film/service/impl/FilmServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/guns-film/src/main/java/com/stylefeng/guns/rest/modular/film/service/impl/MtimeFilmActorTServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="351">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guns-film/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/guns-film/src/main/java/com/stylefeng/guns/rest/modular/film/service/impl/MtimeFilmInfoTServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405" />
+        <state relative-caret-position="318">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-film/src/main/java/com/stylefeng/guns/rest/modular/film/service/impl/MtimeFilmTServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-film/src/main/java/com/stylefeng/guns/rest/modular/film/controller/MtimeFilmActorTController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-film/src/main/java/com/stylefeng/guns/rest/modular/film/controller/MtimeFilmInfoTController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-film/src/main/java/com/stylefeng/guns/rest/modular/film/controller/MtimeFilmTController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/cinema/vo/CinemaFieldsResponseVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/cinema/vo/CinemaFilmResponseVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-cinema/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-891" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.0/dubbo-2.6.0.jar!/com/alibaba/dubbo/rpc/proxy/InvokerInvocationHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/ConditionInfo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/cinema/vo/ConditionInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="105" selection-start-line="10" selection-start-column="105" selection-end-line="10" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-cinema/src/test/java/com/stylefeng/guns/cinema/MyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.3.3/mybatis-plus-support-2.3.3.jar!/com/baomidou/mybatisplus/mapper/Wrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="162" column="34" selection-start-line="162" selection-start-column="28" selection-end-line="162" selection-end-column="34" />
+          <folding>
+            <element signature="e#5091#5092#0" expanded="true" />
+            <element signature="e#5143#5144#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/film/controller/FilmController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="206">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/cinema/controller/CinemaController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.5.RELEASE/spring-webmvc-5.0.5.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="291">
+          <caret line="471" selection-start-line="471" selection-end-line="471" />
         </state>
       </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.5.RELEASE/spring-webmvc-5.0.5.RELEASE.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.5.RELEASE/spring-webmvc-5.0.5.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="496" selection-start-line="496" selection-end-line="496" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.5.RELEASE/spring-webmvc-5.0.5.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-common-api/src/main/java/com/stylefeng/guns/rest/modular/cinema/vo/CinemaVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.3.3/mybatis-plus-support-2.3.3.jar!/com/baomidou/mybatisplus/plugins/Page.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/session/RowBounds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-cinema/guns-cinema.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/guns-cinema/src/main/java/com/stylefeng/guns/rest/GunsCinemaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding>
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/guns-cinema/src/main/java/com/stylefeng/guns/rest/modular/cinema/service/impl/CinemaServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+        <state relative-caret-position="918">
+          <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -928,8 +1402,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/guns-common-api/src/main/java/com/stylefeng/guns/rest/modular/cinema/Service/CinemaService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        <state relative-caret-position="297">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/cinema/vo/ResponseVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/cinema/controller/CinemaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -987,7 +1478,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>guns-user</last-edited>
+          <last-edited>guns-cinema</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1003,7 +1494,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.62413794" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>

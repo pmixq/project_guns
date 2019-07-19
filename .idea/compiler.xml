@@ -6,12 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="guns-gateway" />
+        <module name="guns-common-api" />
         <module name="guns-rest" />
         <module name="guns-cinema" />
         <module name="guns-admin" />
         <module name="guns-film" />
-        <module name="guns-common-api" />
+        <module name="guns-gateway" />
         <module name="guns-generator" />
         <module name="guns-core" />
         <module name="guns-user" />

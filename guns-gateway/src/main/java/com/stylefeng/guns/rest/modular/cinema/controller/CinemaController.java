@@ -7,31 +7,33 @@ import com.stylefeng.guns.rest.modular.cinema.vo.*;
 import com.stylefeng.guns.rest.modular.cinema.vo.FilmInfoVO;
 import com.stylefeng.guns.rest.modular.cinema.vo.HallInfoVO;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @RestController
 @RequestMapping("/cinema/")
 public class CinemaController  {
     private static final String img_pre ="http://img.meetingshop.cn/";
-    @Reference
+    @Reference(interfaceClass = CinemaService.class, check = false)
     CinemaService cinemaService;
 
-    @RequestMapping("getCondition")
+    @RequestMapping(value = "getCondition" ,method = RequestMethod.GET)
     public ResponseVO getCondition(int brandId,int areaId,int hallType){
         ResponseVO responseVO=new ResponseVO();
-        List<Object> list=new ArrayList<>();
-        list.add(cinemaService.getBrands(brandId));
-        list.add(cinemaService.getAreas(areaId));
-        list.add(cinemaService.getHallType(hallType));
-        responseVO.setData(list);
+
+        List<AreaVO> areaList=cinemaService.getAreas(areaId);
+        List<BrandVO> brandList=cinemaService.getBrands(brandId);
+        List<HallTypeVO> halltypeList=cinemaService.getHallType(hallType);
+
+        ConditionInfo conditionInfo=new ConditionInfo(areaList,brandList,halltypeList);
+        responseVO.setData(conditionInfo);
         responseVO.setStatus(0);
-        return null;
+        return responseVO;
     }
 
-    /*@RequestMapping("getCinemas")
+    @RequestMapping(value = "getCinemas",method = RequestMethod.GET)
     public ResponseVO getCinemas(int brandId,int areaId,int hallType,int nowPage,int pageSize){
         ResponseVO responseVO=new ResponseVO();
         CinemaQueryVO cinemaQueryVO=new CinemaQueryVO();
@@ -41,13 +43,16 @@ public class CinemaController  {
         cinemaQueryVO.setNowPage(nowPage);
         cinemaQueryVO.setPageSize(pageSize);
         Page<CinemaVO> page=cinemaService.getCinemas(cinemaQueryVO);
+
+
         responseVO.setData(page);
         responseVO.setStatus(0);
         responseVO.setImgPre(img_pre);
-        responseVO.setNowPage((int)page.getPages());
-        responseVO.setTotalPage((int)page.getTotal());
+        responseVO.setNowPage(nowPage);
+        responseVO.setTotalPage((int)page.getPages());
+
         return responseVO;
-    }*/
+    }
 
     @RequestMapping("getFields")
     public ResponseVO getFields(int cinemaId){

@@ -9,7 +9,7 @@ import java.util.List;
 
 public interface CinemaService {
     //1、根据CinemaQueryVO查询影院列表
-    //Page<CinemaVO> getCinemas(CinemaQueryVO cinemaQueryVO);
+    Page<CinemaVO> getCinemas(CinemaQueryVO cinemaQueryVO);
     //2、根据条件获取品牌列表
     List<BrandVO> getBrands(int brandId);
     //3、获取行政区域列表
@@ -24,5 +24,6 @@ public interface CinemaService {
     FilmInfoVO getFilemInfoByFieldId(int fieldId);
 
     HallInfoVO getFilmFieldInfo(int fieldId);
+
 
 }
