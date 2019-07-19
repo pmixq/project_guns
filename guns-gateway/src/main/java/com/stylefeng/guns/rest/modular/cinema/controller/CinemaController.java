@@ -19,7 +19,7 @@ public class CinemaController  {
     @Reference(interfaceClass = CinemaService.class, check = false)
     CinemaService cinemaService;
 
-    @RequestMapping(value = "getCondition" ,method = RequestMethod.GET)
+    @RequestMapping("getCondition")
     public ResponseVO getCondition(int brandId,int areaId,int hallType){
         ResponseVO responseVO=new ResponseVO();
 
@@ -33,7 +33,7 @@ public class CinemaController  {
         return responseVO;
     }
 
-    @RequestMapping(value = "getCinemas",method = RequestMethod.GET)
+    @RequestMapping("getCinemas")
     public ResponseVO getCinemas(int brandId,int areaId,int hallType,int nowPage,int pageSize){
         ResponseVO responseVO=new ResponseVO();
         CinemaQueryVO cinemaQueryVO=new CinemaQueryVO();
@@ -44,8 +44,7 @@ public class CinemaController  {
         cinemaQueryVO.setPageSize(pageSize);
         Page<CinemaVO> page=cinemaService.getCinemas(cinemaQueryVO);
 
-
-        responseVO.setData(page);
+        responseVO.setData(page.getRecords());
         responseVO.setStatus(0);
         responseVO.setImgPre(img_pre);
         responseVO.setNowPage(nowPage);

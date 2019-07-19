@@ -5,7 +5,7 @@ import java.io.Serializable;
 public class AreaVO implements Serializable {
     private Integer areaId;
     private String areaName;
-    private Boolean isActive;
+    private Boolean active;
 
     public Integer getAreaId() {
         return areaId;
@@ -23,11 +23,11 @@ public class AreaVO implements Serializable {
         this.areaName = areaName;
     }
 
-    public Boolean getIsActive() {
-        return isActive;
+    public Boolean getActive() {
+        return active;
     }
 
-    public void setIsActive(Boolean isActive) {
-        this.isActive = isActive;
+    public void setActive(Boolean active) {
+        this.active = active;
     }
 }

@@ -87,9 +87,9 @@ public class CinemaServiceImpl implements CinemaService {
             brandVO.setBrandId(brandDictT.getUuid());
             brandVO.setBrandName(brandDictT.getShowName());
             if (brandId == brandDictT.getUuid()) {
-                brandVO.setIsActive(true);
+                brandVO.setActive(true);
             } else {
-                brandVO.setIsActive(false);
+                brandVO.setActive(false);
             }
             list.add(brandVO);
         }
@@ -111,9 +111,9 @@ public class CinemaServiceImpl implements CinemaService {
             areaVO.setAreaId(areaDictT.getUuid());
             areaVO.setAreaName(areaDictT.getShowName());
             if (areaId == areaDictT.getUuid()) {
-                areaVO.setIsActive(true);
+                areaVO.setActive(true);
             } else {
-                areaVO.setIsActive(false);
+                areaVO.setActive(false);
             }
             list.add(areaVO);
         }
@@ -133,11 +133,11 @@ public class CinemaServiceImpl implements CinemaService {
         for (HallDictT hallDictT : hallDictTList) {
             HallTypeVO hallTypeVO = new HallTypeVO();
             hallTypeVO.setHalltypeId(hallDictT.getUuid());
-            hallTypeVO.setHalltype(hallDictT.getShowName());
+            hallTypeVO.setHalltypeName(hallDictT.getShowName());
             if (hallType == hallDictT.getUuid()) {
-                hallTypeVO.setIsActive(true);
+                hallTypeVO.setActive(true);
             } else {
-                hallTypeVO.setIsActive(false);
+                hallTypeVO.setActive(false);
             }
             list.add(hallTypeVO);
         }
