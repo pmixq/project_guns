@@ -1,8 +1,12 @@
 package com.stylefeng.guns.rest.modular.film.vo;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Film {
+public class Film implements Serializable {
+
+    private static final long serialVersionUID = -948677885938671385L;
+
     private int boxNum;
     private int expectNum;
     private int filmCats;

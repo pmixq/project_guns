@@ -62,18 +62,19 @@
             <version>1.0.0</version>
         </dependency>
 
+        <!--lombok-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.6</version>
+        </dependency>
+
         <!--分页插件-->
         <dependency>
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper-spring-boot-starter</artifactId>
             <version>1.2.10</version>
         </dependency>
-
-        <!--序列化kyro-->
-        <!--<dependency>
-            <groupId></groupId>
-            <artifactId>kr</artifactId>
-        </dependency>-->
 
 
     </dependencies>

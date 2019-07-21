@@ -2,7 +2,7 @@ package com.stylefeng.guns.rest.common.persistence.dao;
 
 import com.stylefeng.guns.rest.common.persistence.model.MtimeFilmT;
 import com.baomidou.mybatisplus.mapper.BaseMapper;
-import com.stylefeng.guns.rest.modular.film.vo.FilmShort;
+import com.stylefeng.guns.rest.modular.film.vo.FilmShortVO;
 import com.stylefeng.guns.rest.modular.film.vo.Parameter;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
@@ -20,5 +20,5 @@ import java.util.List;
 @Repository
 public interface MtimeFilmTMapper extends BaseMapper<MtimeFilmT> {
 
-    List<FilmShort> queryFilmByParameter(@Param("param") Parameter parameter);
+    List<FilmShortVO> queryFilmByParameter(@Param("param") Parameter parameter);
 }

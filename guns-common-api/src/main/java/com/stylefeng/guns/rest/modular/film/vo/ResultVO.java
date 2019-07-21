@@ -2,9 +2,13 @@ package com.stylefeng.guns.rest.modular.film.vo;
 
 import com.sun.xml.internal.ws.developer.Serialization;
 
+import java.io.Serializable;
 import java.lang.annotation.Annotation;
 
-public class ResultVO {
+public class ResultVO implements Serializable {
+
+    private static final long serialVersionUID = -8161748837609234457L;
+
     private int status;
     private String imgPre;
     private int nowPage;

@@ -1,6 +1,11 @@
 package com.stylefeng.guns.rest.modular.film.vo;
 
-public class Parameter {
+import java.io.Serializable;
+
+public class Parameter implements Serializable {
+
+    private static final long serialVersionUID = -4798709370937989990L;
+
     private int showType;
     private int sortId;
     private int catId;

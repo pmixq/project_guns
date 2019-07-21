@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -13,6 +14,7 @@
         <module name="guns-film" />
         <module name="guns-gateway" />
         <module name="guns-generator" />
+        <module name="guns-order" />
         <module name="guns-rest" />
         <module name="guns-user" />
       </profile>
@@ -26,6 +28,7 @@
       <module name="guns-film" target="1.8" />
       <module name="guns-gateway" target="1.8" />
       <module name="guns-generator" target="1.8" />
+      <module name="guns-order" target="1.8" />
       <module name="guns-rest" target="1.8" />
       <module name="guns-user" target="1.8" />
     </bytecodeTargetLevel>
@@ -39,6 +42,7 @@
       <module name="guns-film" options="-parameters" />
       <module name="guns-gateway" options="-parameters" />
       <module name="guns-generator" options="-parameters" />
+      <module name="guns-order" options="-parameters" />
       <module name="guns-rest" options="-parameters" />
       <module name="guns-user" options="-parameters" />
     </option>

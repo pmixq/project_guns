@@ -35,12 +35,15 @@ spring:
     protocol:
       name: dubbo
       port: 20882
-      serialization: kryo
   datasource:
       url: jdbc:mysql://127.0.0.1:3306/guns_rest?autoReconnect=true&useUnicode=true&characterEncoding=utf8
       username: root
       password: 123456
       filters: log4j,wall,mergeStat
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
 
 
 

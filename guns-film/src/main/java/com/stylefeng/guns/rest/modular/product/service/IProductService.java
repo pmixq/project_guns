@@ -1,7 +1,7 @@
 package com.stylefeng.guns.rest.modular.product.service;
 
-import com.stylefeng.guns.rest.common.persistence.model.Product;
 import com.baomidou.mybatisplus.service.IService;
+import com.stylefeng.guns.rest.common.persistence.model.Product;
 
 /**
  * <p>

@@ -19,7 +19,7 @@
         <result column="film_status" property="filmStatus" />
     </resultMap>
 
-    <select id="queryFilmByParameter" resultMap="filmMap">
+  <!--  <select id="queryFilmByParameter" resultMap="filmMap">
       select
       UUID,
       film_name,
@@ -35,12 +35,12 @@
       </where>
     </select>
 
-    <resultMap id="filmMap" type="com.stylefeng.guns.rest.modular.film.vo.FilmShort">
+    <resultMap id="filmMap" type="com.stylefeng.guns.rest.modular.film.vo.FilmShortVO">
         <id column="UUID" property="filmId" />
         <result column="film_name" property="filmName" />
         <result column="film_type" property="filmType" />
         <result column="img_address" property="imgAddress" />
         <result column="film_score" property="filmScore" />
-    </resultMap>
+    </resultMap>-->
 
 </mapper>
