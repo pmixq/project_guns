@@ -22,7 +22,7 @@ import javax.annotation.Resource;
 @RestController
 public class AuthController {
 
-    @Autowired
+    /*@Autowired
     private JwtTokenUtil jwtTokenUtil;
 
     @Resource(name = "simpleValidator")
@@ -40,5 +40,5 @@ public class AuthController {
         } else {
             throw new GunsException(BizExceptionEnum.AUTH_REQUEST_ERROR);
         }
-    }
+    }*/
 }
