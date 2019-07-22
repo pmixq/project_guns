@@ -171,6 +171,7 @@
                 <artifactId>hutool-all</artifactId>
                 <version>${hutool.version}</version>
             </dependency>
+
             <!--lombok插件-->
             <dependency>
                 <groupId>org.projectlombok</groupId>
@@ -228,6 +229,7 @@
                     <useDefaultDelimiters>false</useDefaultDelimiters>
                 </configuration>
             </plugin>
+
         </plugins>
         <resources>
             <resource>

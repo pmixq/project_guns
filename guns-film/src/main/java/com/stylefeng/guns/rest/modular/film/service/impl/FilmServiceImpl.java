@@ -2,15 +2,24 @@ package com.stylefeng.guns.rest.modular.film.service.impl;
 
 import com.alibaba.dubbo.common.extension.Adaptive;
 import com.alibaba.dubbo.config.annotation.Service;
+
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.baomidou.mybatisplus.plugins.Page;
-import com.github.pagehelper.PageHelper;
+import com.baomidou.mybatisplus.plugins.pagination.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.stylefeng.guns.rest.common.persistence.dao.*;
 import com.stylefeng.guns.rest.common.persistence.model.*;
 import com.stylefeng.guns.rest.modular.film.service.FilmService;
 import com.stylefeng.guns.rest.modular.film.vo.*;
 import org.apache.commons.collections.CollectionUtils;
+
+
+import com.stylefeng.guns.rest.common.persistence.dao.MtimeFilmTMapper;
+import com.stylefeng.guns.rest.modular.film.service.FilmService;
+
+import com.stylefeng.guns.rest.modular.film.vo.Parameter;
+import com.stylefeng.guns.rest.modular.film.vo.ResultVO;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -50,15 +59,19 @@ public class FilmServiceImpl implements FilmService {
     MtimeBannerTMapper bannerTMapper;
 
     //查询影片信息(影片查询接口)
-    @Override
+   @Override
     public ResultVO getFilms(Parameter parameter) {
-        PageHelper.startPage(parameter.getNowPage(), parameter.getPageSize());
-        EntityWrapper<MtimeFilmT> entityWrapper = new EntityWrapper<>();
-        /*entityWrapper.eq("film_type", parameter.getShowType());
-        entityWrapper.eq("film_cats", parameter.getCatId());
-        entityWrapper.eq("film_source", parameter.getSortId());
-        entityWrapper.eq("film_date", parameter.getYearId());*/
-        List<MtimeFilmT> mtimeFilmTS = filmTMapper.selectList(entityWrapper);
+       Page page = new Page(parameter.getNowPage(), parameter.getPageSize());
+       EntityWrapper<MtimeFilmT> entityWrapper = new EntityWrapper<>();
+       if(parameter.getKw() != null){
+           entityWrapper.like("film_name", parameter.getKw());
+       }else {
+           entityWrapper.eq("film_status", parameter.getShowType());
+           entityWrapper.eq("film_date", parameter.getYearId());
+           entityWrapper.like("film_cats", parameter.getCatId()+"");
+           entityWrapper.eq("film_source", parameter.getSourceId());
+       }
+        List<MtimeFilmT> mtimeFilmTS = filmTMapper.selectPage(page, entityWrapper);
         List<FilmShortVO> list = new ArrayList<>();
         for (MtimeFilmT mtimeFilmT : mtimeFilmTS) {
             FilmShortVO filmShortVO = new FilmShortVO();
@@ -69,11 +82,9 @@ public class FilmServiceImpl implements FilmService {
             filmShortVO.setImgAddress(mtimeFilmT.getImgAddress());
             list.add(filmShortVO);
         }
-        PageInfo<FilmShortVO> pageInfo = new PageInfo<>(list);
-        //Page page = new Page(parameter.getNowPage(), parameter.getPageSize());
         ResultVO resultVO = new ResultVO();
-        resultVO.setData(pageInfo.getList());
-        resultVO.setTotalPage((int)pageInfo.getTotal());
+         resultVO.setData(list);
+        resultVO.setTotalPage(list.size()/10 + 1);
         resultVO.setNowPage(parameter.getNowPage());
         resultVO.setImgPre("http://img.meetingshop.cn/");
         resultVO.setStatus(0);
@@ -150,7 +161,8 @@ public class FilmServiceImpl implements FilmService {
             filmDetail.setFilmName(filmT.getFilmName());
             filmDetail.setImgAddress(filmT.getImgAddress());
             filmDetail.setInfo01(substring);
-            filmDetail.setInfo02(sourceDictT.getShowName() + " / " + filmInfoT.getFilmLength());
+            filmDetail.setInfo02(sourceDictT.getShowName() + " / " + filmInfoT.getFilmLength() + "分钟");
+
             filmDetail.setInfo03(info3 + sourceDictT.getShowName() + "上映");
             filmDetail.setInfo04(filmInfo);
             filmDetail.setScore(filmInfoT.getFilmScore());
@@ -251,7 +263,7 @@ public class FilmServiceImpl implements FilmService {
         FilmsVO filmsVO = new FilmsVO();
         EntityWrapper<MtimeFilmT> wrapper = new EntityWrapper<>();
         wrapper.eq("film_status", 1);
-        Integer needCount = filmTMapper.selectCount(wrapper);
+        //Integer needCount = filmTMapper.selectCount(wrapper);
         List<MtimeFilmT> mtimeFilmTS;
         if(isLimit){
             Page page = new Page(1, count);
@@ -260,7 +272,7 @@ public class FilmServiceImpl implements FilmService {
             mtimeFilmTS = filmTMapper.selectList(wrapper);
         }
         List<FilmInfoVO> list = conver2FilmInfoVO1(mtimeFilmTS);
-        filmsVO.setFilmNum(needCount);
+        filmsVO.setFilmNum(count);
         filmsVO.setFilmInfo(list);
         return filmsVO;
     }
@@ -287,7 +299,7 @@ public class FilmServiceImpl implements FilmService {
         FilmsVO filmsVO = new FilmsVO();
         EntityWrapper<MtimeFilmT> wrapper = new EntityWrapper<>();
         wrapper.eq("film_status", 2);
-        Integer needCount = filmTMapper.selectCount(wrapper);
+        //Integer needCount = filmTMapper.selectCount(wrapper);
         List<MtimeFilmT> mtimeFilmTS;
         if(isLimit){
             Page page = new Page(1, count);
@@ -296,7 +308,7 @@ public class FilmServiceImpl implements FilmService {
             mtimeFilmTS = filmTMapper.selectList(wrapper);
         }
         List<FilmInfoVO> list = conver2FilmInfoVO2(mtimeFilmTS);
-        filmsVO.setFilmNum(needCount);
+        filmsVO.setFilmNum(count);
         filmsVO.setFilmInfo(list);
         return filmsVO;
     }
@@ -322,7 +334,7 @@ public class FilmServiceImpl implements FilmService {
     @Override
     public List<FilmRankVO> getRanking(Integer count) {
         List<FilmRankVO> vos = new ArrayList<>();
-        Page<MtimeFilmT> page = new Page<>(1, count, "film_box_office", false);
+        Page<MtimeFilmT> page = new Page<>(1, count, "film_box_office", true);
         EntityWrapper<MtimeFilmT> wrapper = new EntityWrapper<>();
         List<MtimeFilmT> mtimeFilmTS = filmTMapper.selectPage(page, wrapper);
         if(CollectionUtils.isEmpty(mtimeFilmTS)){
@@ -337,7 +349,7 @@ public class FilmServiceImpl implements FilmService {
         for (MtimeFilmT film : mtimeFilmTS) {
             FilmRankVO filmRankVO = new FilmRankVO();
             filmRankVO.setFilmId(film.getUuid()+"");
-            filmRankVO.setFileName(film.getFilmName());
+            filmRankVO.setFilmName(film.getFilmName());
             filmRankVO.setImgAddress(film.getImgAddress());
             filmRankVO.setBoxNum(film.getFilmBoxOffice());
             rankVOS.add(filmRankVO);
@@ -348,8 +360,9 @@ public class FilmServiceImpl implements FilmService {
     @Override
     public List<FilmRankVO> getExpectRanking(Integer count) {
         List<FilmRankVO> vos = new ArrayList<>();
-        Page<MtimeFilmT> page = new Page<>(1, count, "film_box_office", false);
+        Page<MtimeFilmT> page = new Page<>(1, count, "film_preSaleNum", true);
         EntityWrapper<MtimeFilmT> wrapper = new EntityWrapper<>();
+        wrapper.eq("film_status", 2);
         List<MtimeFilmT> mtimeFilmTS = filmTMapper.selectPage(page, wrapper);
         if(CollectionUtils.isEmpty(mtimeFilmTS)){
             return vos;
@@ -363,7 +376,7 @@ public class FilmServiceImpl implements FilmService {
         for (MtimeFilmT film : mtimeFilmTS) {
             FilmRankVO filmRankVO = new FilmRankVO();
             filmRankVO.setFilmId(film.getUuid()+"");
-            filmRankVO.setFileName(film.getFilmName());
+            filmRankVO.setFilmName(film.getFilmName());
             filmRankVO.setImgAddress(film.getImgAddress());
             filmRankVO.setExpectNum(film.getFilmPresalenum());
             rankVOS.add(filmRankVO);
@@ -374,7 +387,7 @@ public class FilmServiceImpl implements FilmService {
     @Override
     public List<FilmRankVO> getTop100(Integer count) {
         List<FilmRankVO> vos = new ArrayList<>();
-        Page<MtimeFilmT> page = new Page<>(1, count, "film_box_office", false);
+        Page<MtimeFilmT> page = new Page<>(1, count, "film_score", true);
         EntityWrapper<MtimeFilmT> wrapper = new EntityWrapper<>();
         List<MtimeFilmT> mtimeFilmTS = filmTMapper.selectPage(page, wrapper);
         if(CollectionUtils.isEmpty(mtimeFilmTS)){
@@ -389,7 +402,7 @@ public class FilmServiceImpl implements FilmService {
         for (MtimeFilmT film : mtimeFilmTS) {
             FilmRankVO filmRankVO = new FilmRankVO();
             filmRankVO.setFilmId(film.getUuid()+"");
-            filmRankVO.setFileName(film.getFilmName());
+            filmRankVO.setFilmName(film.getFilmName());
             filmRankVO.setImgAddress(film.getImgAddress());
             filmRankVO.setScore(film.getFilmScore());
             rankVOS.add(filmRankVO);

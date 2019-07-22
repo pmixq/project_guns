@@ -5,6 +5,7 @@ import com.stylefeng.guns.rest.modular.film.vo.OrderVO;
 import com.stylefeng.guns.rest.modular.order.service.OrderService;
 import com.stylefeng.guns.rest.modular.film.vo.ResponseVO;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -23,7 +24,7 @@ public class OrderController {
 
 
     //这里需要调用用户模块的接口获得userId
-    @RequestMapping("/buyTickets")
+    @RequestMapping(value = "/buyTickets", method = RequestMethod.POST)
     public ResponseVO buyTickets(Integer fieldId, String soldSeats, String seatsName){
         int userId = 1; //待获取
         OrderVO order = orderService.createOrder(fieldId, soldSeats, seatsName, userId);
@@ -38,7 +39,7 @@ public class OrderController {
     }
 
     //查询用户订单信息
-    @RequestMapping("/getOrderInfo")
+    @RequestMapping(value = "/getOrderInfo", method = RequestMethod.POST)
     public ResponseVO getOrderInfo(int nowPage, int pageSize){
         int userId = 1; //待获取
         List<OrderVO> orders = orderService.getOrderInfo(userId, nowPage, pageSize);

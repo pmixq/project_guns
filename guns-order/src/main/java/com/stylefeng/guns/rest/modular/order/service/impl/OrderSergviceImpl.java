@@ -105,7 +105,7 @@ public class OrderSergviceImpl implements OrderService {
         orderVO.setFilmName(filmT.getFilmName());
         orderVO.setFieldTime(fieldT.getBeginTime()); //此处存疑，无年月日
         MtimeCinemaT mtimeCinemaT = cinemaTMapper.selectById(moocOrderT.getCinemaId());
-        orderVO.setCinemaNmae(mtimeCinemaT.getCinemaName());
+        orderVO.setCinemaName(mtimeCinemaT.getCinemaName());
         orderVO.setSeatsName(seatsName);
         orderVO.setOrderPrice(moocOrderT.getOrderPrice());
         orderVO.setOrderTimestamp(null);  //此处存疑  不知道这字段啥意思
@@ -129,7 +129,7 @@ public class OrderSergviceImpl implements OrderService {
             MtimeFieldT fieldT = fieldTMapper.selectById(moocOrderT.getFieldId());
             orderVO.setFieldTime(fieldT.getBeginTime()); //此处存疑，无年月日
             MtimeCinemaT mtimeCinemaT = cinemaTMapper.selectById(moocOrderT.getCinemaId());
-            orderVO.setCinemaNmae(mtimeCinemaT.getCinemaName());
+            orderVO.setCinemaName(mtimeCinemaT.getCinemaName());
             orderVO.setSeatsName(moocOrderT.getSeatsName());
             orderVO.setOrderPrice(moocOrderT.getOrderPrice());
             orderVO.setOrderTimestamp(null);  //此处存疑  不知道这字段啥意思
@@ -144,6 +144,7 @@ public class OrderSergviceImpl implements OrderService {
     public String getSeats(Integer fieldId){
         EntityWrapper<MoocOrderT> wrapper = new EntityWrapper<>();
         wrapper.eq("field_id", fieldId);
+        wrapper.eq("order_status", 1);
         List<MoocOrderT> moocOrderTS = orderTMapper.selectList(wrapper);
         StringBuffer sb = new StringBuffer();
         for (MoocOrderT moocOrderT : moocOrderTS) {

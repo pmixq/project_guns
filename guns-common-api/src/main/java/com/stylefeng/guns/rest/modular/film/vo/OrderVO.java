@@ -19,7 +19,7 @@ public class OrderVO implements Serializable {
 
     private String fieldTime;
 
-    private String cinemaNmae;
+    private String cinemaName;
 
     private String seatsName;
 

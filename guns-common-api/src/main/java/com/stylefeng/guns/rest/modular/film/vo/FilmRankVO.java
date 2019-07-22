@@ -14,7 +14,7 @@ public class FilmRankVO implements Serializable {
 
     private String filmId;
     private String imgAddress;
-    private String fileName;
+    private String filmName;
 
     private Integer boxNum;
     private Integer expectNum;
