@@ -1,0 +1,33 @@
+package com.stylefeng.guns.rest.modular.cinema.vo;
+
+import java.io.Serializable;
+
+public class BrandVO implements Serializable {
+    private Integer brandId;
+    private String brandName;
+    private Boolean active;
+
+    public Integer getBrandId() {
+        return brandId;
+    }
+
+    public void setBrandId(Integer brandId) {
+        this.brandId = brandId;
+    }
+
+    public String getBrandName() {
+        return brandName;
+    }
+
+    public void setBrandName(String brandName) {
+        this.brandName = brandName;
+    }
+
+    public Boolean getActive() {
+        return active;
+    }
+
+    public void setActive(Boolean active) {
+        this.active = active;
+    }
+}
