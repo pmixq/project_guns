@@ -1,9 +1,10 @@
 package com.stylefeng.guns.rest.modular.film.vo;
 
-import com.sun.xml.internal.ws.developer.Serialization;
+
 
 import java.io.Serializable;
 import java.lang.annotation.Annotation;
+
 
 public class ResultVO implements Serializable {
 

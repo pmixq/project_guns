@@ -1,6 +1,6 @@
 package com.stylefeng.guns.rest.modular.auth.controller.dto;
 
-import com.stylefeng.guns.rest.modular.auth.validator.dto.Credence;
+import com.stylefeng.guns.rest.modular.user.validator.dto.Credence;
 
 /**
  * 认证的请求dto

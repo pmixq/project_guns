@@ -1,6 +1,6 @@
 rest:
-  auth-open: false #jwt鉴权机制是否开启(true或者false)
-  sign-open: false #签名机制是否开启(true或false)
+  auth-open: true #jwt鉴权机制是否开启(true或者false)
+  sign-open: true #签名机制是否开启(true或false)
 
 jwt:
   header: Authorization   #http请求头所需要的字段
@@ -8,6 +8,17 @@ jwt:
   expiration: 604800      #7天 单位:秒
   auth-path: auth         #认证请求的路径
   md5-key: randomKey      #md5加密混淆key
+  noFilterUrl:            #自己增加的字段，不需要鉴权的url
+    - /user/register         # 用户：用户注册入口
+    - /user/check            # 用户：用户名验证入口
+    - /film/getIndex         # 影片：首页接口
+    - /film/getConditionList # 影片：条件列表查询接口
+    - /film/getFilms         # 影片：查询接口
+    - /film/films            # 影片：详情查询接口
+    - /cinema/getCinemas     # 影院：根据条件查询所有影院列表接口
+    - /cinema/getCondition   # 影院：获取影院列表查询条件接口
+    - /cinema/getFields      # 影院：获取播放场次接口
+    - /cinema/getFieldInfo   # 影院：获取场次详细信息接口
 
 server:
   port: 8080 #项目端口

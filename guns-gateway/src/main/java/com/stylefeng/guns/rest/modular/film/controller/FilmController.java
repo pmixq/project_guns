@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/film")
 public class FilmController {
 
+
     private static String IMG_PRE = "http://img.meetingshop.cn/";
 
     @Reference(interfaceClass = FilmService.class, check = false)

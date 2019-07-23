@@ -63,25 +63,52 @@ public class FilmServiceImpl implements FilmService {
     public ResultVO getFilms(Parameter parameter) {
        Page page = new Page(parameter.getNowPage(), parameter.getPageSize());
        EntityWrapper<MtimeFilmT> entityWrapper = new EntityWrapper<>();
+       entityWrapper.eq("film_status", parameter.getShowType());
        if(parameter.getKw() != null){
            entityWrapper.like("film_name", parameter.getKw());
        }else {
-           entityWrapper.eq("film_status", parameter.getShowType());
-           entityWrapper.eq("film_date", parameter.getYearId());
-           entityWrapper.like("film_cats", parameter.getCatId()+"");
-           entityWrapper.eq("film_source", parameter.getSourceId());
+           if(parameter.getYearId() != 99){
+               entityWrapper.eq("film_date", parameter.getYearId());
+           }
+           if(parameter.getSourceId()!= 99){
+               entityWrapper.eq("film_source", parameter.getSourceId());
+           }
        }
-        List<MtimeFilmT> mtimeFilmTS = filmTMapper.selectPage(page, entityWrapper);
-        List<FilmShortVO> list = new ArrayList<>();
-        for (MtimeFilmT mtimeFilmT : mtimeFilmTS) {
-            FilmShortVO filmShortVO = new FilmShortVO();
-            filmShortVO.setFilmId(mtimeFilmT.getUuid());
-            filmShortVO.setFilmName(mtimeFilmT.getFilmName());
-            filmShortVO.setFilmType(mtimeFilmT.getFilmType());
-            filmShortVO.setFilmScore(mtimeFilmT.getFilmScore());
-            filmShortVO.setImgAddress(mtimeFilmT.getImgAddress());
-            list.add(filmShortVO);
-        }
+       List<MtimeFilmT> mtimeFilmTS = filmTMapper.selectPage(page, entityWrapper);
+       List<FilmShortVO> list = new ArrayList<>();
+       if(parameter.getCatId() != 99){
+           List<MtimeFilmT> arrayList = new ArrayList();
+           for (MtimeFilmT mtimeFilmT : mtimeFilmTS) {
+               String filmCats = mtimeFilmT.getFilmCats();
+               String[] split = filmCats.split("#");
+               for (String s : split) {
+                   if(s.equals(parameter.getCatId()+"")){
+                       arrayList.add(mtimeFilmT);
+                   }
+               }
+           }
+           for (MtimeFilmT filmT : arrayList) {
+               FilmShortVO filmShortVO = new FilmShortVO();
+               filmShortVO.setFilmId(filmT.getUuid());
+               filmShortVO.setFilmName(filmT.getFilmName());
+               filmShortVO.setFilmType(filmT.getFilmType());
+               filmShortVO.setFilmScore(filmT.getFilmScore());
+               filmShortVO.setImgAddress(filmT.getImgAddress());
+               list.add(filmShortVO);
+           }
+
+       }else {
+           for (MtimeFilmT mtimeFilmT : mtimeFilmTS) {
+               FilmShortVO filmShortVO = new FilmShortVO();
+               filmShortVO.setFilmId(mtimeFilmT.getUuid());
+               filmShortVO.setFilmName(mtimeFilmT.getFilmName());
+               filmShortVO.setFilmType(mtimeFilmT.getFilmType());
+               filmShortVO.setFilmScore(mtimeFilmT.getFilmScore());
+               filmShortVO.setImgAddress(mtimeFilmT.getImgAddress());
+               list.add(filmShortVO);
+           }
+       }
+
         ResultVO resultVO = new ResultVO();
          resultVO.setData(list);
         resultVO.setTotalPage(list.size()/10 + 1);
